@@ -1,0 +1,35 @@
+/* style.css */
+
+* {margin: 0px; padding: 0px;}
+
+body {
+    background-color: #f1f1f1;
+    margin-top: 50px;
+}
+
+header {
+    grid-area: header;
+}
+
+canvas {
+    border: 2px solid #111;
+}
+
+button {
+    margin: auto;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #111;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+button:hover {
+    background: #333;
+}
