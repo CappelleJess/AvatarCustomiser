@@ -17,8 +17,16 @@
     <p class="sources">Sources: <a href="https://github.com/CappelleJess/Avatar" target="_blank">Github</a></p>
 
 <div class="pt-56 pb-3 lg:pb-0 px-5 lg:px-10 bg-white shadow text-gray-700 rounded-xl">
-    <div class="mb-3">
+                <div class="mb-3">
                 <label class="block font-medium text-xs ml-2 mb-1 text-gray-400">Skin Tone</label>
+                <div>
+                    <template x-for="(hex,color) in options.colors.skin">
+                        <input type="radio" class="form-radio h-8 w-8 border-white cursor-pointer" :style="{backgroundColor:hex,color:hex}" x-model="avatar.skin.color" :value="color" :checked="color == avatar.skin.color" @change="updateAvatar()">
+                    </template>
+                </div>
+            </div>
+
+            <hr class="border-t-2 border-gray-100 mb-4">
 </div>
 </div>
 </body>
