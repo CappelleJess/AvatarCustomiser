@@ -10,41 +10,41 @@ document.addEventListener("DOMContentLoaded", function() {
         let colors = ["white", "lightblue", "lightyellow", "lightgreen"];
         let path = "img/";
 
-        let backhair_nbr = get_random_image(25, 1);
+        let backhair_nbr = get_random_image(35, 1);
         let body_nbr = get_random_image(25, 1);
-        let clothe_nbr = get_random_image(12, 1);
-        let eyebrow_nbr = get_random_image(20, 1);
-        let eye_nbr = get_random_image(25, 1);
+        let clothes_nbr = get_random_image(12, 1);
+        let eyebrows_nbr = get_random_image(20, 1);
+        let eyes_nbr = get_random_image(30, 1);
         let mouth_nbr = get_random_image(25, 1);
         let nose_nbr = get_random_image(4, 1);
-        let fronthair_nbr = get_random_image(25, 1);
+        let fronthair_nbr = get_random_image(35, 1);
 
         let backhair_img = new Image();
         let body_img = new Image();
-        let clothe_img = new Image();
-        let eyebrow_img = new Image();
-        let eye_img = new Image();
+        let clothes_img = new Image();
+        let eyebrows_img = new Image();
+        let eyes_img = new Image();
         let mouth_img = new Image();
         let nose_img = new Image();
         let fronthair_img = new Image();
 
         backhair_img.crossOrigin = "anonymous";
         body_img.crossOrigin = "anonymous";
-        clothe_img.crossOrigin = "anonymous";
-        eyebrow_img.crossOrigin = "anonymous";
-        eye_img.crossOrigin = "anonymous";
+        clothes_img.crossOrigin = "anonymous";
+        eyebrows_img.crossOrigin = "anonymous";
+        eyes_img.crossOrigin = "anonymous";
         nose_img.crossOrigin = "anonymous";
         mouth_img.crossOrigin = "anonymous";
         fronthair_img.crossOrigin = "anonymous";
 
-        backhair_img.src = path + "backhairs/backhair" + backhair_nbr;
-        body_img.src = path + "bodys/body" + body_nbr;
-        clothe_img.src = path + "clothes/clothes" + clothe_nbr;
-        eyebrow_img.src = path + "eyebrows/eyebrows" + eyebrow_nbr;
-        eye_img.src = path + "eyes/eyes" + eye_nbr;
-        mouth_img.src = path + "mouths/mouth" + mouth_nbr;
-        nose_img.src = path + "noses/nose" + nose_nbr;
-        fronthair_img.src = path + "fronthairs/fronthair" + fronthair_nbr;
+        backhair_img.src = path + "backhair/backhair" + backhair_nbr;
+        body_img.src = path + "body/body" + body_nbr;
+        clothes_img.src = path + "clothes/clothes" + clothes_nbr;
+        eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
+        eyes_img.src = path + "eyes/eyes" + eyes_nbr;
+        mouth_img.src = path + "mouth/mouth" + mouth_nbr;
+        nose_img.src = path + "nose/nose" + nose_nbr;
+        fronthair_img.src = path + "fronthair/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
 
@@ -71,9 +71,9 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx.fillRect(0, 0, 500, 500);
             ctx.drawImage(backhair_img, 0, 0);
             ctx.drawImage(body_img, 0, 0);
-            ctx.drawImage(clothe_img, 0, 0);
-            ctx.drawImage(eyebrow_img, 0, 0);
-            ctx.drawImage(eye_img, 0, 0);
+            ctx.drawImage(clothes_img, 0, 0);
+            ctx.drawImage(eyebrows_img, 0, 0);
+            ctx.drawImage(eyes_img, 0, 0);
             ctx.drawImage(mouth_img, 0, 0);
             ctx.drawImage(nose_img, 0, 0);
             ctx.drawImage(fronthair_img, 0, 0);
