@@ -10,14 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
         let colors = ["white", "lightblue", "lightyellow", "lightgreen"];
         let path = "img/";
 
-        let backhair_nbr = get_random_image(35, 1);
+        let backhair_nbr = get_random_image(25, 1);
         let body_nbr = get_random_image(25, 1);
         let clothes_nbr = get_random_image(12, 1);
         let eyebrows_nbr = get_random_image(20, 1);
-        let eyes_nbr = get_random_image(30, 1);
+        let eyes_nbr = get_random_image(25, 1);
         let mouth_nbr = get_random_image(25, 1);
         let nose_nbr = get_random_image(4, 1);
-        let fronthair_nbr = get_random_image(35, 1);
+        let fronthair_nbr = get_random_image(25, 1);
 
         let backhair_img = new Image();
         let body_img = new Image();
@@ -71,9 +71,9 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx.fillRect(0, 0, 500, 500);
             ctx.drawImage(backhair_img, 0, 0);
             ctx.drawImage(body_img, 0, 0);
-            ctx.drawImage(clothes_img, 0, 0);
-            ctx.drawImage(eyebrows_img, 0, 0);
-            ctx.drawImage(eyes_img, 0, 0);
+            ctx.drawImage(clothe_img, 0, 0);
+            ctx.drawImage(eyebrow_img, 0, 0);
+            ctx.drawImage(eye_img, 0, 0);
             ctx.drawImage(mouth_img, 0, 0);
             ctx.drawImage(nose_img, 0, 0);
             ctx.drawImage(fronthair_img, 0, 0);
