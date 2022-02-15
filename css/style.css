@@ -15,12 +15,15 @@ body {
     text-align: center;
 }
 
-canvas {border: 2px solid #222;}
+canvas {
+    border: 2px solid #222; 
+    border-radius: 50%;
+}
 
 button {
     margin: auto;
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-weight: bold;
     background: #eee;
     color: #222;
@@ -32,8 +35,11 @@ button {
             transition: background-color 300ms linear;
 }
 
-button:hover {background: #ddd;}
+button:hover {
+    cursor: pointer;
+    background: #ddd;
+}
+
 a:link {text-decoration: none;}
 a:link:hover {text-decoration: underline;}
 .sources {margin: 5px 0px; font-size: 0.8em;}
-
