@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let ctx = canvas.getContext('2d');
         let download_btn = document.getElementById('download_btn');
         let background_btn = document.getElementById('background_btn');
-        let colors = ["white", "lightblue", "lightyellow", "lightgreen"];
+        let colors = ["lightcoral", "lightblue", "lightyellow", "lightgreen"];
         let path = "img/";
 
         let backhair_nbr = get_random_image(25, 1);
@@ -71,9 +71,9 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx.fillRect(0, 0, 500, 500);
             ctx.drawImage(backhair_img, 0, 0);
             ctx.drawImage(body_img, 0, 0);
-            ctx.drawImage(clothe_img, 0, 0);
-            ctx.drawImage(eyebrow_img, 0, 0);
-            ctx.drawImage(eye_img, 0, 0);
+            ctx.drawImage(clothes_img, 0, 0);
+            ctx.drawImage(eyebrows_img, 0, 0);
+            ctx.drawImage(eyes_img, 0, 0);
             ctx.drawImage(mouth_img, 0, 0);
             ctx.drawImage(nose_img, 0, 0);
             ctx.drawImage(fronthair_img, 0, 0);
