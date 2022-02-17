@@ -2,211 +2,453 @@
 [
 	{
 		"img": "/img/backhair/backhair1.png",
-		"color": "blond",
-		"length": "short"
+		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/backhair2.png",
-		"color": "ginger",
-		"length": "short"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/backhair3.png",
-		"color": "auburn",
-		"length": "short"
+		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/backhair4.png",
-		"color": "chestnut",
-		"length": "short"
+		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/backhair5.png",
-		"color": "black",
-		"length": "short"
+		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/backhair6.png",
-		"color": "blond",
-		"length": "long"
+		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/backhair7.png",
-		"color": "ginger",
-		"length": "long"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/backhair8.png",
-		"color": "auburn",
-		"length": "long"
+		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/backhair9.png",
-		"color": "chestnut",
-		"length": "long"
+		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/backhair10.png",
-		"color": "black",
-		"length": "long"
+		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/backhair11.png",
-		"color": "blond",
-		"length": "short"
+		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/backhair12.png",
-		"color": "ginger",
-		"length": "short"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/backhair13.png",
-		"color": "auburn",
-		"length": "short"
+		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/backhair14.png",
-		"color": "chestnut",
-		"length": "short"
+		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/backhair15.png",
-		"color": "black",
-		"length": "short"
+		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/backhair16.png",
-		"color": "blond",
-		"length": "short"
+		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/backhair17.png",
-		"color": "ginger",
-		"length": "short"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/backhair18.png",
-		"color": "auburn",
-		"length": "short"
+		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/backhair19.png",
-		"color": "chestnut",
-		"length": "short"
+		"color": "chestnut"
 },
 
 	{
 		"img": "/img/backhair/backhair20.png",
-		"color": "black",
-		"length": "short"
+		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/backhair21.png",
-		"color": "blond",
-		"length": "long"
+		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/backhair22.png",
-		"color": "ginger",
-		"length": "long"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/backhair23.png",
-		"color": "auburn",
-		"length": "long"
+		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/backhair24.png",
-		"color": "chestnut",
-		"length": "long"
+		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/backhair25.png",
-		"color": "black",
-		"length": "long"
+		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/backhair26.png",
-		"color": "blond",
-		"length": "short"
+		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/backhair27.png",
-		"color": "ginger",
-		"length": "short"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/backhair28.png",
-		"color": "auburn",
-		"length": "short"
+		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/backhair29.png",
-		"color": "chestnut",
-		"length": "short"
+		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/backhair30.png",
-		"color": "black",
-		"length": "short"
+		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/backhair31.png",
-		"color": "blond",
-		"length": "long"
+		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/backhair32.png",
-		"color": "ginger",
-		"length": "long"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/backhair33.png",
-		"color": "auburn",
-		"length": "long"
+		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/backhair34.png",
-		"color": "chestnut",
-		"length": "long"
+		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/backhair35.png",
-		"color": "black",
-		"length": "long"
+		"color": "black"
+	},
+
+	{
+		"img": "/img/fronthair/fronthair1.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair2.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair3.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair4.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair5.png",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair6.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair7.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair8.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair9.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair10.png",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair11.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair12.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair13.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair14.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair15.png",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair16.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair17.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair18.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair19.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair20.png",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair21.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair22.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair23.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair24.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair25.png",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair26.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair27.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair28.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair29.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair30.png",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair31.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair32.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair33.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair34.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/fronthair/fronthair35.png",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/eyebrows/eyebrows1.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows2.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows3.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows4.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows5.png",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/eyebrows/eyebrows6.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows7.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows8.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows9.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows10.png",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows11.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows12.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows13.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows14.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows15.png",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/eyebrows/eyebrows16.png",
+		"color": "blond"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows17.png",
+		"color": "ginger"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows18.png",
+		"color": "auburn"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows19.png",
+		"color": "chestnut"
+	},
+	
+	{
+		"img": "/img/eyebrows/eyebrows20.png",
+		"color": "black"
 	}
+
+
 ]
