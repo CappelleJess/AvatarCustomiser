@@ -55,9 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         window.onload = function() {
             draw_avatar();
-            var item = data.assets.filter(function(e) { 
-                return x.id === 'blond'; 
-                })[0];
         }
 
         background_btn.addEventListener('click', function(e) {
