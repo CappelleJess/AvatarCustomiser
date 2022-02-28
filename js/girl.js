@@ -1,9 +1,4 @@
 /* main.js v0.1 by djphil (CC-BY-NC-SA 4.0) */
-fetch("./assets.json")
-.then(response => {
-   return response.json();
-})
-.then(jsondata => console.log(jsondata));
 
 document.addEventListener("DOMContentLoaded", function() {
     let canvas = document.getElementById('canvas');
