@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let eyes_nbr = get_random_image(30, 1);
         let mouth_nbr = get_random_image(5, 1);
         let nose_nbr = get_random_image(4, 1);
-        let fronthair_nbr = get_random_image(10, 1);
+        let fronthair_nbr = get_random_image(15, 1);
 
         let backhair_img = new Image();
         let body_img = new Image();
