@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         let path = "img/";
 
-        let backhair_nbr = get_random_image(10, 1);
+        let backhair_nbr = get_random_image(15, 1);
         let body_nbr = get_random_image(25, 1);
         let clothes_nbr = get_random_image(12, 1);
         let eyebrows_nbr = get_random_image(20, 1);
