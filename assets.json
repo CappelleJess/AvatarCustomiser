@@ -176,6 +176,81 @@
 	},
 
 	{
+		"img": "/img/backhair/man/backhair1.png",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair2.png",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair3.png",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair4.png",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair5.png",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair6.png",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair7.png",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair8.png",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair9.png",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair10.png",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair11.png",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair12.png",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair13.png",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair14.png",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair15.png",
+		"color": "black"
+	},
+
+	{
 		"img": "/img/fronthair/woman/fronthair1.png",
 		"color": "blond"
 	},
@@ -351,6 +426,81 @@
 	},
 
 	{
+		"img": "/img/fronthair/man/fronthair1.png",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair2.png",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair3.png",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair4.png",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair5.png",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair6.png",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair7.png",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair8.png",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair9.png",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair10.png",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair11.png",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair12.png",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair13.png",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair14.png",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair15.png",
+		"color": "black"
+	},
+
+	{
 		"img": "/img/eyebrows/eyebrows1.png",
 		"color": "blond"
 	},
@@ -448,7 +598,7 @@
 	{
 		"img": "/img/eyebrows/eyebrows20.png",
 		"color": "black"
-	}
+	},
 
 
 ]
