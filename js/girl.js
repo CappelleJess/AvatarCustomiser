@@ -1,5 +1,8 @@
 /* main.js v0.1 by djphil (CC-BY-NC-SA 4.0) */
 
+const jsonData= require('./students.json'); 
+console.log(jsonData);
+
 document.addEventListener("DOMContentLoaded", function() {
     let canvas = document.getElementById('canvas');
 

@@ -1,5 +1,8 @@
 /* main.js v0.1 by djphil (CC-BY-NC-SA 4.0) */
 
+const jsonData= require('./assets.json'); 
+console.log(jsonData);
+
 document.addEventListener("DOMContentLoaded", function() {
     let canvas = document.getElementById('canvas');
 
@@ -45,6 +48,14 @@ document.addEventListener("DOMContentLoaded", function() {
         mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
         nose_img.src = path + "nose/nose" + nose_nbr;
         fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
+
+        foreach ($query->getResult() as $row) {
+            $keywords = json_decode($row->keywords);
+            shuffle($keywords);
+            foreach ($keywords as $msg) {
+            echo $msg->title . "<br/>" . $msg->option . "<hr/>";
+            }
+        }
 
         let background_color = get_random_color();
 
