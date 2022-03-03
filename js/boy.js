@@ -49,14 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
         nose_img.src = path + "nose/nose" + nose_nbr;
         fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
 
-        foreach ($query->getResult() as $row) {
-            $keywords = json_decode($row->keywords);
-            shuffle($keywords);
-            foreach ($keywords as $msg) {
-            echo $msg->title . "<br/>" . $msg->option . "<hr/>";
-            }
-        }
-
         let background_color = get_random_color();
 
         window.onload = function() {
