@@ -3,7 +3,7 @@
 * {margin: 0px; padding: 0px;}
 
 body {
-    font-family: 'Lexend Deca';
+    font: 'Lexend Deca';
     background-color: #fff;
     margin-top: 50px;
     color: #222;
@@ -22,6 +22,7 @@ canvas {
 }
 
 button {
+    font: 'Lexend Deca';
     margin: auto;
     margin-top: 10px;
     padding: 10px 10px;
