@@ -1,8 +1,5 @@
 /* main.js v0.1 by djphil (CC-BY-NC-SA 4.0) */
 
-let dataFile = require('./assets.json');
-console.log(dataFile.assets[0].degree);
-
 document.addEventListener("DOMContentLoaded", function() {
     let canvas = document.getElementById('canvas');
 

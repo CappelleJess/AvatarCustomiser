@@ -3,12 +3,22 @@
 * {margin: 0px; padding: 0px;}
 
 body {
-    font: 'Lexend Deca';
+    font-family: 'Lexend Deca';
     background-color: #fff;
     margin-top: 50px;
     color: #222;
 }
 
+h1 {
+    font-family: 'Lexend Deca';
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 
 #container {
     width: 500px;
@@ -22,10 +32,10 @@ canvas {
 }
 
 button {
-    font: 'Lexend Deca';
     margin: auto;
     margin-top: 10px;
     padding: 10px 10px;
+    font-family: 'Lexend Deca';
     font-weight: bold;
     background: #eee;
     color: #222;
@@ -40,6 +50,15 @@ button {
 button:hover {
     cursor: pointer;
     background: #ddd;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 a:link {text-decoration: none;}
