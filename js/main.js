@@ -9,19 +9,14 @@ document.addEventListener("DOMContentLoaded", function() {
         let background_btn = document.getElementById('background_btn');
         let colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         let path = "img/";
-        fetch("assets.json")
-            .then(Response => Response.json())
-            .then(data => {
-                console.log(data);
-            });
 
-        let matched = get_random_image(20, 1);
+        let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
         let body_nbr = get_random_image(25, 1);
         let clothes_nbr = get_random_image(12, 1);
         let eyebrows_nbr = matched;
         let eyes_nbr = get_random_image(30, 1);
-        let mouth_nbr = get_random_image(5, 1);
+        let mouth_nbr = get_random_image(25, 1);
         let nose_nbr = get_random_image(4, 1);
         let fronthair_nbr = matched;
 
@@ -42,6 +37,15 @@ document.addEventListener("DOMContentLoaded", function() {
         nose_img.crossOrigin = "anonymous";
         mouth_img.crossOrigin = "anonymous";
         fronthair_img.crossOrigin = "anonymous";
+
+        backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
+        body_img.src = path + "body/body" + body_nbr;
+        clothes_img.src = path + "clothes/clothes" + clothes_nbr;
+        eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
+        eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
+        mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
+        nose_img.src = path + "nose/nose" + nose_nbr;
+        fronthair_img.src = path + "fronthair/woman/fronthair" + fronthair_nbr;
 
         backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
         body_img.src = path + "body/body" + body_nbr;
