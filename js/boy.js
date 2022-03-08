@@ -15,23 +15,17 @@ document.addEventListener("DOMContentLoaded", function() {
                 console.log(data);
             });
 
-<<<<<<< Updated upstream
         let matched = get_random_image(20, 1);
         let backhair_nbr = matched;
-=======
         let backhair_nbr = get_random_image(20, 1);
->>>>>>> Stashed changes
         let body_nbr = get_random_image(25, 1);
         let clothes_nbr = get_random_image(12, 1);
         let eyebrows_nbr = matched;
         let eyes_nbr = get_random_image(30, 1);
         let mouth_nbr = get_random_image(5, 1);
         let nose_nbr = get_random_image(4, 1);
-<<<<<<< Updated upstream
         let fronthair_nbr = matched;
-=======
         let fronthair_nbr = get_random_image(20, 1);
->>>>>>> Stashed changes
 
         let backhair_img = new Image();
         let body_img = new Image();
