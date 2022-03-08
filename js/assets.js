@@ -1,3 +1,4 @@
+const assets = [
 	{
 		"img": "/img/backhair/woman/backhair1.png",
 		"color": "blond"
