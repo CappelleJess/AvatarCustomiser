@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let matched = get_random_image(20, 1);
         let backhair_nbr = matched;
-        let backhair_nbr = get_random_image(20, 1);
         let body_nbr = get_random_image(25, 1);
         let clothes_nbr = get_random_image(12, 1);
         let eyebrows_nbr = matched;
@@ -25,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
         let mouth_nbr = get_random_image(5, 1);
         let nose_nbr = get_random_image(4, 1);
         let fronthair_nbr = matched;
-        let fronthair_nbr = get_random_image(20, 1);
 
         let backhair_img = new Image();
         let body_img = new Image();
