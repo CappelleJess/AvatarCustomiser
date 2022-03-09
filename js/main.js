@@ -29,18 +29,18 @@ document.addEventListener("DOMContentLoaded", function() {
         let nose_img = new Image();
         let fronthair_img = new Image();
 
+        backhair_img.crossOrigin = "anonymous";
+        body_img.crossOrigin = "anonymous";
+        clothes_img.crossOrigin = "anonymous";
+        eyebrows_img.crossOrigin = "anonymous";
+        eyes_img.crossOrigin = "anonymous";
+        nose_img.crossOrigin = "anonymous";
+        mouth_img.crossOrigin = "anonymous";
+        fronthair_img.crossOrigin = "anonymous";
+
         document.getElementById('choices').addEventListener('click', function(evt) {
         var target = evt.target;
             if (target.id === 'select_girl') {
-                backhair_img.crossOrigin = "anonymous";
-                body_img.crossOrigin = "anonymous";
-                clothes_img.crossOrigin = "anonymous";
-                eyebrows_img.crossOrigin = "anonymous";
-                eyes_img.crossOrigin = "anonymous";
-                nose_img.crossOrigin = "anonymous";
-                mouth_img.crossOrigin = "anonymous";
-                fronthair_img.crossOrigin = "anonymous";
-            } else if (target.id === 'select_boy') {        
                 backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
                 body_img.src = path + "body/body" + body_nbr;
                 clothes_img.src = path + "clothes/clothes" + clothes_nbr;
@@ -48,7 +48,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
                 mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
-                fronthair_img.src = path + "fronthair/woman/fronthair" + fronthair_nbr;
+                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
+            } else if (target.id === 'select_boy') {        
+                backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
+                body_img.src = path + "body/body" + body_nbr;
+                clothes_img.src = path + "clothes/clothes" + clothes_nbr;
+                eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
+                eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
+                mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
+                nose_img.src = path + "nose/nose" + nose_nbr;
+                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
             }
         }, false);
 
