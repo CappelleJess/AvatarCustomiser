@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let background_color = get_random_color();
 
-        window.onload = function() {
+        window.onload = function(select_girl) {
             draw_avatar();
         }
 
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let background_color = get_random_color();
 
-        window.onload = function() {
+        window.onload = function(select_boy) {
             draw_avatar();
         }
 
