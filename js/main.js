@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 nose_img.src = path + "nose/nose" + nose_nbr;
                 fronthair_img.src = path + "fronthair/woman/fronthair" + fronthair_nbr;
             }
-        }
+        }, false);
 
         let background_color = get_random_color();
 
