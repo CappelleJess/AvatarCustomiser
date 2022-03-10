@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         mouth_img.crossOrigin = "anonymous";
         fronthair_img.crossOrigin = "anonymous";
 
-        document.getElementById('choices').addEventListener('click', function(evt) {
+        document.getElementById('choices').addEventListener('submit', function(evt) {
         var target = evt.target;
             if (target.id === 'select_girl') {
                 backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
