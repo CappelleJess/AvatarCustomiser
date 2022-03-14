@@ -1,500 +1,842 @@
+[	
 	{
 		"img": "/img/backhair/woman/backhair1.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair2.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair3.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair4.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair5.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair6.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair7.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair8.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair9.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair10.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair11.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair12.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair13.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair14.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair15.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair16.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair17.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair18.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair19.png",
+		"gender": "woman",
 		"color": "chestnut"
 },
 
 	{
 		"img": "/img/backhair/woman/backhair20.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair21.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair22.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair23.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair24.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair25.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair26.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair27.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair28.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair29.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair30.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair31.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair32.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair33.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair34.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/woman/backhair35.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair1.png",
+		"gender": "man",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair2.png",
+		"gender": "man",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair3.png",
+		"gender": "man",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair4.png",
+		"gender": "man",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair5.png",
+		"gender": "man",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair6.png",
+		"gender": "man",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair7.png",
+		"gender": "man",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair8.png",
+		"gender": "man",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair9.png",
+		"gender": "man",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair10.png",
+		"gender": "man",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair11.png",
+		"gender": "man",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair12.png",
+		"gender": "man",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair13.png",
+		"gender": "man",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair14.png",
+		"gender": "man",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/backhair/man/backhair15.png",
+		"gender": "man",
 		"color": "black"
 	},
 
 	{
+		"img": "/img/backhair/man/backhair16.png",
+		"gender": "man",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair17.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair18.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair19.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair20.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair21.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair22.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair23.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair24.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair25.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair26.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair27.png",
+		"gender": "man",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/backhair/man/backhair28.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair29.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair30.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair31.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair32.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair33.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair34.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/backhair/man/backhair35.png",
+		"gender": "man",
+		"color": "black"
+	},
+
+
+	{
 		"img": "/img/fronthair/woman/fronthair1.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair2.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair3.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair4.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair5.png",
+		"gender": "woman",
 		"color": "black"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair6.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair7.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair8.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair9.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair10.png",
+		"gender": "woman",
 		"color": "black"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair11.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair12.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair13.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair14.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair15.png",
+		"gender": "woman",
 		"color": "black"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair16.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair17.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair18.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair19.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair20.png",
+		"gender": "woman",
 		"color": "black"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair21.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair22.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair23.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair24.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair25.png",
+		"gender": "woman",
 		"color": "black"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair26.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair27.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair28.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair29.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair30.png",
+		"gender": "woman",
 		"color": "black"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair31.png",
+		"gender": "woman",
 		"color": "blond"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair32.png",
+		"gender": "woman",
 		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair33.png",
+		"gender": "woman",
 		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair34.png",
+		"gender": "woman",
 		"color": "chestnut"
 	},
 	
 	{
 		"img": "/img/fronthair/woman/fronthair35.png",
+		"gender": "woman",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair1.png",
+		"gender": "man",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair2.png",
+		"gender": "man",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair3.png",
+		"gender": "man",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair4.png",
+		"gender": "man",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair5.png",
+		"gender": "man",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair6.png",
+		"gender": "man",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair7.png",
+		"gender": "man",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair8.png",
+		"gender": "man",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair9.png",
+		"gender": "man",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair10.png",
+		"gender": "man",
 		"color": "black"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair11.png",
+		"gender": "man",
 		"color": "blond"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair12.png",
+		"gender": "man",
 		"color": "ginger"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair13.png",
+		"gender": "man",
 		"color": "auburn"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair14.png",
+		"gender": "man",
 		"color": "chestnut"
 	},
 
 	{
 		"img": "/img/fronthair/man/fronthair15.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/man/fronthair16.png",
+		"gender": "man",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair17.png",
+		"gender": "man",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair18.png",
+		"gender": "man",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair19.png",
+		"gender": "man",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair20.png",
+		"gender": "man",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair21.png",
+		"gender": "man",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair22.png",
+		"gender": "man",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair23.png",
+		"gender": "man",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair24.png",
+		"gender": "man",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair25.png",
+		"gender": "man",
+		"color": "black"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair26.png",
+		"gender": "man",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair27.png",
+		"gender": "man",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair28.png",
+		"gender": "man",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair29.png",
+		"gender": "man",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair30.png",
+		"gender": "man",
+		"color": "black"
+	},
+	
+	{
+		"img": "/img/fronthair/man/fronthair31.png",
+		"gender": "man",
+		"color": "blond"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair32.png",
+		"gender": "man",
+		"color": "ginger"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair33.png",
+		"gender": "man",
+		"color": "auburn"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair34.png",
+		"gender": "man",
+		"color": "chestnut"
+	},
+
+	{
+		"img": "/img/fronthair/man/fronthair35.png",
+		"gender": "man",
 		"color": "black"
 	},
 
