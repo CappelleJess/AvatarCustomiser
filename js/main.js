@@ -38,6 +38,11 @@ document.addEventListener("DOMContentLoaded", function() {
         mouth_img.crossOrigin = "anonymous";
         fronthair_img.crossOrigin = "anonymous";
 
+        function Select() {
+            let select_girl = document.getElementById('select_girl');
+            let select_boy = document.getElementById('select_boy');
+            
+            if (select_girl.onclick == true) {
                 backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
                 body_img.src = path + "body/body" + body_nbr;
                 clothes_img.src = path + "clothes/clothes" + clothes_nbr;
@@ -46,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-
+            } else (select_boy.onclick == true) {
                 backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
                 body_img.src = path + "body/body" + body_nbr;
                 clothes_img.src = path + "clothes/clothes" + clothes_nbr;
@@ -55,7 +60,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-
+                };
+        };
 
         let background_color = get_random_color();
 
