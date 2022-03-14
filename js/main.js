@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
         fronthair_img.crossOrigin = "anonymous";
 
         function Select() {
+            
             let select_girl = document.getElementById('select_girl');
             let select_boy = document.getElementById('select_boy');
             
