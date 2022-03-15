@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let eyes_nbr = get_random_image(30, 1);
         let mouth_nbr = get_random_image(25, 1);
         let nose_nbr = get_random_image(4, 1);
-        let accessories_nbr = get_random_image(5, 1);        
+        let accessories_nbr = get_random_image(12, 1);        
         let fronthair_nbr = matched;
 
         let backhair_img = new Image();
