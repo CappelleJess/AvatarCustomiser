@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
         let eyes_nbr = get_random_image(30, 1);
         let mouth_nbr = get_random_image(25, 1);
         let nose_nbr = get_random_image(4, 1);
+        let accessories_nbr = get_random_image(5, 1);        
         let fronthair_nbr = matched;
-        let accessories_nbr = get_random_image(1, 1);
 
         let backhair_img = new Image();
         let body_img = new Image();
@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
         let eyes_img = new Image();
         let mouth_img = new Image();
         let nose_img = new Image();
-        let fronthair_img = new Image();
         let accessories_img = new Image();
+        let fronthair_img = new Image();
 
         backhair_img.crossOrigin = "anonymous";
         body_img.crossOrigin = "anonymous";
@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
         eyes_img.crossOrigin = "anonymous";
         nose_img.crossOrigin = "anonymous";
         mouth_img.crossOrigin = "anonymous";
-        fronthair_img.crossOrigin = "anonymous";
         accessories_img.crossOrigin = "anonymous";
+        fronthair_img.crossOrigin = "anonymous";        
 
                 backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
                 body_img.src = path + "body/body" + body_nbr;
@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
                 mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
+                accessories_img.src = path + "accessories/accessories" + accessories_nbr;                
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;
 
                 backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
                 body_img.src = path + "body/body" + body_nbr;
@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
                 mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
+                accessories_img.src = path + "accessories/accessories" + accessories_nbr;                
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;
 
         let background_color = get_random_color();
 
@@ -93,8 +93,8 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx.drawImage(eyes_img, 0, 0);
             ctx.drawImage(mouth_img, 0, 0);
             ctx.drawImage(nose_img, 0, 0);
+            ctx.drawImage(accessories_img, 0, 0);            
             ctx.drawImage(fronthair_img, 0, 0);
-            ctx.drawImage(accessories_img, 0, 0);
         }
 
         function get_random_image(a, b) {
