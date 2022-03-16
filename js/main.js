@@ -58,13 +58,13 @@ document.addEventListener("DOMContentLoaded", function() {
         fronthair_img.crossOrigin = "anonymous";
 
         backhair_img.src = path + gender + "backhair/backhair" + backhair_nbr;
-        body_img.src = path + "both/body/body" + body_nbr;
-        clothes_img.src = path + "both/clothes/clothes" + clothes_nbr;
-        eyebrows_img.src = path + "both/eyebrows/eyebrows" + eyebrows_nbr;
+        body_img.src = path + "unisex/body/body" + body_nbr;
+        clothes_img.src = path + "unisex/clothes/clothes" + clothes_nbr;
+        eyebrows_img.src = path + "unisex/eyebrows/eyebrows" + eyebrows_nbr;
         eyes_img.src = path + gender + "eyes/eyes" + eyes_nbr;
         mouth_img.src = path + gender + "mouth/mouth" + mouth_nbr;
-        nose_img.src = path + "both/nose/nose" + nose_nbr;
-        accessories_img.src = path + "both/accessories/accessories" + accessories_nbr;
+        nose_img.src = path + "unisex/nose/nose" + nose_nbr;
+        accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
