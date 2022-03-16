@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-            } else (select_boy.onclick == true) {
+            } else if (select_boy.onclick == true) {
                 backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
                 body_img.src = path + "body/body" + body_nbr;
                 clothes_img.src = path + "clothes/clothes" + clothes_nbr;
