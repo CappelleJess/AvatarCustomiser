@@ -2,6 +2,9 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
+    var queryString = location.search;
+    let params = newURLSearchParams(queryString)
+
         fetch("json/assets.json").then(Response => Response.json()).then(data => {
         for (let i = 0; i < data.length; i++) {
             console.log(data[i]);
@@ -9,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // console.log(data[i].color);
         }
     });
-        
+
     let canvas = document.getElementById('canvas');
 
     if (canvas.getContext) {
