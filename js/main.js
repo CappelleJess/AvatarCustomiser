@@ -62,25 +62,15 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.crossOrigin = "anonymous";
         fronthair_img.crossOrigin = "anonymous";        
 
-                backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
-                body_img.src = path + "body/body" + body_nbr;
-                clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-                eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-                eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-                mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
-                nose_img.src = path + "nose/nose" + nose_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;                
-                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-
-                backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
-                body_img.src = path + "body/body" + body_nbr;
-                clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-                eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-                eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-                mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
-                nose_img.src = path + "nose/nose" + nose_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;                
-                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
+        backhair_img.src = path + gender + "backhairs/backhair" + backhair_nbr;
+        body_img.src = path + "both/bodys/body" + body_nbr;
+        clothe_img.src = path + "both/clothes/clothes" + clothe_nbr;
+        eyebrow_img.src = path + "both/eyebrows/eyebrows" + eyebrow_nbr;
+        eye_img.src = path + gender + "eyes/eyes" + eye_nbr;
+        mouth_img.src = path + gender + "mouths/mouth" + mouth_nbr;
+        nose_img.src = path + "both/noses/nose" + nose_nbr;
+        accessorie_img.src = path + "both/accessories/accessories" + accessorie_nbr; 
+        fronthair_img.src = path + gender + "fronthairs/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
 
