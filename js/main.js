@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         backhair_img.crossOrigin = "anonymous";
         body_img.crossOrigin = "anonymous";
-        clothe_img.crossOrigin = "anonymous";
-        eyebrow_img.crossOrigin = "anonymous";
-        eye_img.crossOrigin = "anonymous";
+        clothes_img.crossOrigin = "anonymous";
+        eyebrows_img.crossOrigin = "anonymous";
+        eyes_img.crossOrigin = "anonymous";
         nose_img.crossOrigin = "anonymous";
         mouth_img.crossOrigin = "anonymous";
         accessories_img.crossOrigin = "anonymous";
