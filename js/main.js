@@ -2,11 +2,6 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
-    const queryString = window.location.search;
-    const params = new URLSearchParams(queryString);
-    const gender = params.get('gender')
-    console.log(gender);
-
         fetch("json/assets.json").then(Response => Response.json()).then(data => {
         for (let i = 0; i < data.length; i++) {
             console.log(data[i]);
@@ -23,6 +18,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const background_btn = document.getElementById('background_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
+
+        const queryString = window.location.search;
+        const params = new URLSearchParams(queryString);
+        const gender = params.get('gender');
+        if (gender != man) gender = 'woman';
+        gender = gender + "/";
+        console.log(gender);
 
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
@@ -55,25 +57,15 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.crossOrigin = "anonymous";
         fronthair_img.crossOrigin = "anonymous";
 
-        backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
-        body_img.src = path + "body/body" + body_nbr;
-        clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-        eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-        eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-        mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
-        nose_img.src = path + "nose/nose" + nose_nbr;
-        accessories_img.src = path + "accessories/accessories" + accessories_nbr;
-        fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-
-        backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
-        body_img.src = path + "body/body" + body_nbr;
-        clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-        eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-        eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-        mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
-        nose_img.src = path + "nose/nose" + nose_nbr;
-        accessories_img.src = path + "accessories/accessories" + accessories_nbr;
-        fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
+        backhair_img.src = path + gender + "backhair/backhair" + backhair_nbr;
+        body_img.src = path + "both/body/body" + body_nbr;
+        clothes_img.src = path + "both/clothes/clothes" + clothes_nbr;
+        eyebrows_img.src = path + "both/eyebrows/eyebrows" + eyebrows_nbr;
+        eyes_img.src = path + gender + "eyes/eyes" + eyes_nbr;
+        mouth_img.src = path + gender + "mouth/mouth" + mouth_nbr;
+        nose_img.src = path + "both/nose/nose" + nose_nbr;
+        accessories_img.src = path + "both/accessories/accessories" + accessories_nbr;
+        fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
 
