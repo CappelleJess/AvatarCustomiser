@@ -62,9 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 nose_img.src = path + "nose/nose" + nose_nbr;
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
                 };
-        };       eyebrows_img.crossOrigin = "anonymous";
-        eyes_img.crossOrigin = "anonymo    ries" + accessories_nbr;                
-                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
+            };
 
         let background_color = get_random_color();
 
