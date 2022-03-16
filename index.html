@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Avatar Customizer v0.1</title>
     <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lexend Deca'>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div id="container">
+<body class="w3-theme">
+<div class="w3-container w3-padding-16 w3-center">
     <h1>Avatar Customizer v0.1</h1>
+    <p>Bienvenue sur ce générateur d'avatar !<br> 
+    Tu peux personnaliser ton personnage en commençant par choisir ton genre à l'aide des deux images ci-dessous.</p>
     <br>
-    <canvas id="canvas" width="500" height="500"></canvas>
-    <br>
+     <div class="w3-col m2 w3-margin-bottom">
+            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=female">
+                <img class="w3-image w3-circle w3-gender" src="img/female/female.png" alt="Image avatar fille" />
+                <br>FILLE
+            </a>
+        </div>
     <button onclick="window.location.reload();">RANDOMIZE</button>
     <button type="submit" id="background_btn">BACKGROUND</button>
     <button type="submit" id="download_btn">DOWNLOAD</button>
