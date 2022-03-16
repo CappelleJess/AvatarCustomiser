@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -9,19 +9,20 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lexend Deca'>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="w3-theme">
 <div class="w3-container w3-padding-16 w3-center">
     <h1>Avatar Customizer v0.1</h1>
-    <p>Bienvenue sur ce générateur d'avatar !<br> 
-    Tu peux personnaliser ton personnage en commençant par choisir ton genre à l'aide des deux images ci-dessous.</p>
+    <p>Bienvenue sur ce générateur d'avatar !<br>Tu peux personnaliser ton personnage en commençant par choisir ton genre à l'aide des deux images ci-dessous.</p>
     <br>
-     <div class="w3-col m2 w3-margin-bottom">
+    <div class="w3-row w3-container w3-center">
+        <div class="w3-col m2 w3-margin-bottom">
             <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=female">
                 <img class="w3-image w3-circle w3-gender" src="img/icones/girl.png" alt="Image avatar fille" />
                 <br>FILLE
             </a>
         </div>
-    <div class="w3-col m8 w3-margin-bottom">
+        <div class="w3-col m8 w3-margin-bottom">
             <canvas id="canvas" class="w3-border-3 w3-circle" width="500" height="500"></canvas>
         </div>
         <div class="w3-col m2 w3-margin-bottom">
@@ -30,11 +31,14 @@
                 <br>GARÇON
             </a>
         </div>
+    </div>
     <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" onclick="window.location.reload();">RANDOMIZE</button>
     <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" id="background_btn">BACKGROUND</button>
     <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" id="download_btn">DOWNLOAD</button>
     <p class="w3-small">Sources: <a class="w3-link" href="https://github.com/CappelleJess/AvatarCustomiser" target="_blank">Github</a></p>
 </div>
+
 <script src="js/main.js"></script>
+
 </body>
 </html>
