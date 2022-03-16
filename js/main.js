@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const queryString = window.location.search;
         const params = new URLSearchParams(queryString);
-        const gender = params.get('gender');
+        let gender = params.get('gender');
         if (gender != man) gender = 'woman';
         gender = gender + "/";
         console.log(gender);
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
         download_btn.addEventListener('click', function(e) {
             var link = document.createElement('a');
             link.download = 'avatar.png';
-            link.href = canvas.toDataURL()
+            link.href = canvas.toDataURL();
             link.click();
             link.delete;
         });
