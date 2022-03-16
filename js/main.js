@@ -1,9 +1,16 @@
 /* main.js v0.1 by djphil (CC-BY-NC-SA 4.0) */
 
 document.addEventListener("DOMContentLoaded", function() {
+
+        fetch("json/assets.json").then(Response => Response.json()).then(data => {
+        for (let i = 0; i < data.length; i++) {
+            console.log(data[i]);
+            // console.log(data[i].img);
+            // console.log(data[i].color);
+        }
+    });
+        
     let canvas = document.getElementById('canvas');
-    let select_girl = document.getElementById('select_girl');
-    let select_boy = document.getElementById('select_boy');
 
     if (canvas.getContext) {
         let ctx = canvas.getContext('2d');
