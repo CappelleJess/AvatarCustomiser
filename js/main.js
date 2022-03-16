@@ -35,8 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
         backhair_img.crossOrigin = "anonymous";
         body_img.crossOrigin = "anonymous";
-        clothes_img.crossOrigin = "anonymous";
- 
+        clothe_img.crossOrigin = "anonymous";
+        eyebrow_img.crossOrigin = "anonymous";
+        eye_img.crossOrigin = "anonymous";
+        nose_img.crossOrigin = "anonymous";
+        mouth_img.crossOrigin = "anonymous";
+        accessories_img.crossOrigin = "anonymous";
+        fronthair_img.crossOrigin = "anonymous";
 
         function Select() {
             
@@ -51,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
                 mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
+                accessories_img.src = path + "accessories/accessories" + accessories_nbr;
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
             } else if (select_boy.onclick == true) {
                 backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
@@ -60,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
                 mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
                 nose_img.src = path + "nose/nose" + nose_nbr;
+                accessories_img.src = path + "accessories/accessories" + accessories_nbr;
                 fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
                 };
             };
