@@ -3,24 +3,25 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     var queryString = location.search;
-    let params = newURLSearchParams(queryString)
+    let params = newURLSearchParams(queryString);
+    let gender = parseInt(params.get('gender'));
 
         fetch("json/assets.json").then(Response => Response.json()).then(data => {
         for (let i = 0; i < data.length; i++) {
             console.log(data[i]);
-            // console.log(data[i].img);
-            // console.log(data[i].color);
+            console.log(data[i].img);
+            console.log(data[i].color);
         }
     });
 
     let canvas = document.getElementById('canvas');
 
     if (canvas.getContext) {
-        let ctx = canvas.getContext('2d');
-        let download_btn = document.getElementById('download_btn');
-        let background_btn = document.getElementById('background_btn');
-        let colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
-        let path = "img/";
+        const ctx = canvas.getContext('2d');
+        const download_btn = document.getElementById('download_btn');
+        const background_btn = document.getElementById('background_btn');
+        const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
+        const path = "img/";
 
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
