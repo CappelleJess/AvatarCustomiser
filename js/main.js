@@ -55,33 +55,25 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.crossOrigin = "anonymous";
         fronthair_img.crossOrigin = "anonymous";
 
-        function Select() {
-            
-            let select_girl = document.getElementById('select_girl');
-            let select_boy = document.getElementById('select_boy');
-            
-            if (select_girl.onclick == true) {
-                backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
-                body_img.src = path + "body/body" + body_nbr;
-                clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-                eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-                eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-                mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
-                nose_img.src = path + "nose/nose" + nose_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;
-                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-            } else if (select_boy.onclick == true) {
-                backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
-                body_img.src = path + "body/body" + body_nbr;
-                clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-                eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-                eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-                mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
-                nose_img.src = path + "nose/nose" + nose_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;
-                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-                };
-            };
+        backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
+        body_img.src = path + "body/body" + body_nbr;
+        clothes_img.src = path + "clothes/clothes" + clothes_nbr;
+        eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
+        eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
+        mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
+        nose_img.src = path + "nose/nose" + nose_nbr;
+        accessories_img.src = path + "accessories/accessories" + accessories_nbr;
+        fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
+
+        backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
+        body_img.src = path + "body/body" + body_nbr;
+        clothes_img.src = path + "clothes/clothes" + clothes_nbr;
+        eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
+        eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
+        mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
+        nose_img.src = path + "nose/nose" + nose_nbr;
+        accessories_img.src = path + "accessories/accessories" + accessories_nbr;
+        fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
 
