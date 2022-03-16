@@ -2,6 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
+    var anchor = document.getElementById("?gender=")
     var queryString = location.search;
     let params = newURLSearchParams(queryString);
     let gender = parseInt(params.get('gender'));
