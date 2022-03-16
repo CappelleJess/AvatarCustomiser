@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const queryString = window.location.search;
         const params = new URLSearchParams(queryString);
         let gender = params.get('gender');
-        if (gender != man) gender = 'woman';
+        if (gender != 'man') gender = 'woman';
         gender = gender + "/";
         console.log(gender);
 
