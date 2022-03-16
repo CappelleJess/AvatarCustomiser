@@ -2,10 +2,10 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
-    var anchor = document.getElementById("?gender=")
-    var queryString = location.search;
-    let params = newURLSearchParams(queryString);
-    let gender = parseInt(params.get('gender'));
+    const queryString = window.location.search;
+    const params = new URLSearchParams(queryString);
+    const gender = params.get('gender')
+    console.log(gender);
 
         fetch("json/assets.json").then(Response => Response.json()).then(data => {
         for (let i = 0; i < data.length; i++) {
