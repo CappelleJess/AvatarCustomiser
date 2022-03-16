@@ -21,10 +21,19 @@
                 <br>FILLE
             </a>
         </div>
-    <button onclick="window.location.reload();">RANDOMIZE</button>
-    <button type="submit" id="background_btn">BACKGROUND</button>
-    <button type="submit" id="download_btn">DOWNLOAD</button>
-    <p class="sources">Sources: <a href="https://github.com/CappelleJess/AvatarCustomiser" target="_blank">Github</a></p>
+    <div class="w3-col m8 w3-margin-bottom">
+            <canvas id="canvas" class="w3-border-3 w3-circle" width="500" height="500"></canvas>
+        </div>
+        <div class="w3-col m2 w3-margin-bottom">
+            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=male">
+                <img class="w3-image w3-circle w3-gender " src="img/icones/boy.png" alt="Image avatar garçon" />
+                <br>GARÇON
+            </a>
+        </div>
+    <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" onclick="window.location.reload();">RANDOMIZE</button>
+    <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" id="background_btn">BACKGROUND</button>
+    <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" id="download_btn">DOWNLOAD</button>
+    <p class="w3-small">Sources: <a class="w3-link" href="https://github.com/CappelleJess/AvatarCustomiser" target="_blank">Github</a></p>
 </div>
 <script src="js/main.js"></script>
 </body>
