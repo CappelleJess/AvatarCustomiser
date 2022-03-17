@@ -69,14 +69,14 @@ document.addEventListener("DOMContentLoaded", function() {
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
         function mySelect() {
-            var x = document.getElementById("dropMenu");
-                if (x.className.indexOf("w3-show") == -1) {
-                    x.className += " w3-show";
-                    x.previousElementSibling.className += " w3-green";
+            var drop = document.getElementById("dropMenu");
+                if (drop.className.indexOf("w3-show") == -1) {
+                    drop.className += " w3-show";
+                    drop.previousElementSibling.className += " w3-green";
                 } else { 
-                    x.className = x.className.replace(" w3-show", "");
-                    x.previousElementSibling.className = 
-                    x.previousElementSibling.className.replace(" w3-green", "");
+                    drop.className = drop.className.replace(" w3-show", "");
+                    drop.previousElementSibling.className = 
+                    drop.previousElementSibling.className.replace(" w3-green", "");
                 }
         }
 
