@@ -68,6 +68,8 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
+        
+
         let background_color = get_random_color();
 
         window.onload = function() {
