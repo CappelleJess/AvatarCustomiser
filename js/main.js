@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
-        window.mySelect = function() {
+        function mySelect() {
         var drop = document.getElementById("dropMenu");
             if (drop.className.indexOf("w3-show") == -1) {
                 drop.className += "w3-show";
