@@ -68,7 +68,17 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
-        
+        function mySelect() {
+            var x = document.getElementById("dropMenu");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-green";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className = 
+                    x.previousElementSibling.className.replace(" w3-green", "");
+                }
+        }
 
         let background_color = get_random_color();
 
