@@ -27,6 +27,15 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
+        window.mySelect = function() {
+        var drop = document.getElementById("dropMenu");
+            if (drop.className.indexOf("w3-show") == -1) {
+                drop.className += "w3-show";
+            } else { 
+                drop.className = drop.className.replace("w3-show", "");
+            }
+        };
+
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
         let body_nbr = get_random_image(25, 1);
@@ -67,15 +76,6 @@ document.addEventListener("DOMContentLoaded", function() {
         nose_img.src = path + "unisex/nose/nose" + nose_nbr;
         accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
-
-        window.mySelect = function() {
-        var drop = document.getElementById("dropMenu");
-            if (drop.className.indexOf("w3-show") == -1) {
-                drop.className += "w3-show";
-            } else { 
-                drop.className = drop.className.replace("w3-show", "");
-            }
-        };
 
         let background_color = get_random_color();
 
