@@ -27,14 +27,17 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
-        window.mySelect = function() {
-        var drop = document.getElementById("dropMenu");
-            if (drop.className.indexOf("w3-show") == -1) {
-                drop.className += "w3-show";
-            } else { 
-                drop.className = drop.className.replace("w3-show", "");
-            }
-        };
+window.mySelect = function() {
+  var drop = document.getElementById("drop");
+  if (drop.className.indexOf("w3-show") == -1) {
+    drop.className += " w3-show";
+    drop.previousElementSibling.className += " w3-green";
+  } else { 
+    drop.className = drop.className.replace(" w3-show", "");
+    drop.previousElementSibling.className = 
+    drop.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
 
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
