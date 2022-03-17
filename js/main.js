@@ -27,20 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
-        window.myHair =  function() {
-        var drop = document.getElementById("drop1");
-            if (drop.className.indexOf("w3-show") == -1) {
-                drop.className += " w3-show";
-                drop.previousElementSibling.className += " w3-green";
-            } else { 
-                drop.className = drop.className.replace(" w3-show", "");
-                drop.previousElementSibling.className = 
-                drop.previousElementSibling.className.replace(" w3-green", "");
-            }
-        };
-
-        window.myFace =  function() {
-        var drop = document.getElementById("drop2");
+        window.mySelect =  function(id) {
+        var drop = document.getElementById("id");
             if (drop.className.indexOf("w3-show") == -1) {
                 drop.className += " w3-show";
                 drop.previousElementSibling.className += " w3-green";
