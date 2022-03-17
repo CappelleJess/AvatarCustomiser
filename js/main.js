@@ -68,6 +68,18 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
+        window.mySelect = function() {
+        var drop = document.getElementById("dropMenu");
+            if (drop.className.indexOf("w3-show") == -1) {
+                drop.className += "w3-show";
+                drop.previousElementSibling.className += "w3-green";
+            } else { 
+                drop.className = drop.className.replace("w3-show", "");
+                drop.previousElementSibling.className = 
+                drop.previousElementSibling.className.replace("w3-green", "");
+            }
+        }
+
         let background_color = get_random_color();
 
         window.onload = function() {
@@ -113,15 +125,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
     else {alert('Sorry, your browser do not support canvas ...');}
 });
-
-function mySelect() {
-var drop = document.getElementById("dropMenu");
-    if (drop.className.indexOf("w3-show") == -1) {
-        drop.className += "w3-show";
-        drop.previousElementSibling.className += "w3-green";
-    } else { 
-        drop.className = drop.className.replace("w3-show", "");
-        drop.previousElementSibling.className = 
-        drop.previousElementSibling.className.replace("w3-green", "");
-                        }
-}
