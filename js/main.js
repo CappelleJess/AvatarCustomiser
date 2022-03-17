@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 drop.previousElementSibling.className = 
                 drop.previousElementSibling.className.replace("w3-green", "");
             }
-        }
+        };
 
         let background_color = get_random_color();
 
