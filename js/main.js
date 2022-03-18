@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(gender);
 
         window.mySelect =  function() {
-        const drop = document.getElementById("dropMenu");
+        var drop = document.getElementById("dropMenu");
             if (drop.className.indexOf("w3-show") == -1) {
                 drop.className += " w3-show";
                 drop.previousElementSibling.className += " w3-black";
