@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else { 
                 drop.className = drop.className.replace(" w3-show", "");
                 drop.previousElementSibling.className = 
-                drop.previousElementSibling.className.replace(" w3-black", "");
+                drop.previousElementSibling.className.replace(" w3-green", "");
             }
         };
 
