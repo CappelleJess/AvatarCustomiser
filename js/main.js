@@ -27,15 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
-        window.mySelect = function() {
-            var x = document.getElementById("drop");
+        window.mySelect = function(id) {
+            var x = document.getElementById("id");
             if (x.className.indexOf("w3-show") == -1) {
                 x.className += " w3-show";
-                x.previousElementSibling.className += " w3-green";
             } else { 
                 x.className = x.className.replace(" w3-show", "");
-                x.previousElementSibling.className = 
-                x.previousElementSibling.className.replace(" w3-green", "");
             }
         }
 
