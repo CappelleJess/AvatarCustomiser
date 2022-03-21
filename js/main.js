@@ -27,6 +27,15 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
+        window.mySelect = function(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        };
+
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
         let body_nbr = get_random_image(25, 1);
