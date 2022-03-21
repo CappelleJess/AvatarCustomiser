@@ -27,17 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
-        function mySelect() {
-        var drop = document.getElementById();
-            if (drop.className.indexOf("w3-show") == -1) {
-                drop.className += " w3-show";
-                drop.previousElementSibling.className += " w3-black";
-            } else { 
-                drop.className = drop.className.replace(" w3-show", "");
-                drop.previousElementSibling.className = 
-                drop.previousElementSibling.className.replace(" w3-green", "");
-            }
-        };
+        const accordion = document.getElementsByClassName('w3-sidebar w3-bar-block w3-light-grey w3-card');
+        for (i = 0; i<accordion.length; i++) {
+            accordion[i].addEventListener('click', function() {
+                this.classList.toggle('active')
+            })
+        }
 
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
