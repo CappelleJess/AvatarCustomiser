@@ -27,26 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
-        const accordionBtns = document.querySelectorAll(".accordion");
-
-        accordionBtns.forEach((accordion) => {
-        accordion.onclick = function () {
-            this.classList.toggle("is-open");
-
-            let content = this.nextElementSibling;
-            console.log(content);
-
-            if (content.style.maxHeight) {
-      //this is if the accordion is open
-                content.style.maxHeight = null;
-            } else {
-      //if the accordion is currently closed
-                content.style.maxHeight = content.scrollHeight + "px";
-                console.log(content.style.maxHeight);
-            }
-        };
-        });
-
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
         let body_nbr = get_random_image(25, 1);
