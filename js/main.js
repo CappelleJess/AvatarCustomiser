@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
-        window.mySelect =  function() {
+        function mySelect() {
         var drop = document.getElementById();
             if (drop.className.indexOf("w3-show") == -1) {
                 drop.className += " w3-show";
