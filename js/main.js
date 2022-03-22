@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
 
+            const hair_blond = document.getElementById('hair_blond');
+
         const queryString = window.location.search;
         const params = new URLSearchParams(queryString);
         let gender = params.get('gender');
@@ -45,11 +47,11 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         let matched = get_random_image(35, 1);
-            let blondhair_nbr = get_random_image(7, 1);
-            let gingerhair_nbr = get_random_image(7, 1);
-            let auburnhair_nbr = get_random_image(7, 1);
-            let chestnuthair_nbr = get_random_image(7, 1);
-            let blackhair_nbr = get_random_image(7, 1);
+            let blondhair_nbr = get_random_img(7, 1);
+            let gingerhair_nbr = get_random_img(7, 1);
+            let auburnhair_nbr = get_random_img(7, 1);
+            let chestnuthair_nbr = get_random_img(7, 1);
+            let blackhair_nbr = get_random_img(7, 1);
         let backhair_nbr = matched;
         let body_nbr = get_random_image(25, 1);
         let clothes_nbr = get_random_image(12, 1);
@@ -104,6 +106,10 @@ document.addEventListener("DOMContentLoaded", function() {
         nose_img.src = path + "unisex/nose/nose" + nose_nbr;
         accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
+
+        function get_random_img(a, b) {
+            return Math.floor(Math.random() * a) + b + ".png";
+        };
 
         let background_color = get_random_color();
 
