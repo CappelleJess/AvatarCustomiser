@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         gender = gender + "/";
         console.log(gender);
 
-        window.openSelect = function() {
+        window.openSelect = function(id) {
             var x = document.getElementsByClassName("class");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";  
