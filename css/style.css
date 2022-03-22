@@ -1,66 +1,27 @@
 /* style.css */
 
-* {margin: 0px; padding: 0px;}
-
-body {
-    font-family: 'Lexend Deca';
-    background-color: #e0d1ff;
-    margin-top: 50px;
-    color: #222;
+:root {
+    --w3-theme : #ffffff;
 }
 
-h1 {
-    font-family: 'Lexend Deca';
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
+body, h1, button {font-family: 'Lexend Deca';}
+h1, button {font-weight: 700;}
 
-#container {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-canvas {
-    border: 2px solid #222; 
-    border-radius: 50%;
-}
-
-button {
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px 10px;
-    font-family: 'Lexend Deca';
-    font-weight: bold;
-    background: #eee;
-    color: #222;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: inline-block;
+button, a {
     -webkit-transition: background-color 300ms linear;
         -ms-transition: background-color 300ms linear;
             transition: background-color 300ms linear;
 }
 
-button:hover {
-    cursor: pointer;
-    background: #ddd;
-}
+.w3-gender {width: 100px;}
+.w3-link {text-decoration: none;}
+.w3-link:hover {text-decoration: underline;}
+.w3-theme {background-color: var(--w3-theme) !important;}
+.w3-text-theme {background-color: var(--w3-theme) !important;}
+.w3-border-2 {border: 2px solid;}
+.w3-border-3 {border: 3px solid;}
 
-p {
-    font-family: 'Lexend Deca';
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+/* .w3-canvas {width: 500px; height: 500px;} */
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    /* .w3-canvas {width: 250px; height: 250px;} */
 }
-
-a:link {text-decoration: none;}
-a:link:hover {text-decoration: underline;}
-.sources {margin: 5px 0px; font-size: 0.8em;}
