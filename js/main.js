@@ -28,12 +28,11 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(gender);
 
         window.openSelect = function(id) {
-            var x = document.getElementById('id');
-            if (x.style.display === 'none') {
-                x.style.display = 'block';
-            } else {
-                x.style.display = 'none';
+            var x = document.getElementsByClassName("class");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
             }
+        document.getElementById(id).style.display = "block";  
         };
 
         window.mySelect = function(id) {
