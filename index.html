@@ -17,13 +17,13 @@
     <br>
     <div class="w3-row w3-container w3-center">
         <div class="w3-col m2 w3-margin-bottom">
-            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=woman">
+            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=woman" onclick="openSelect('girl'); return false;">
                 <img class="w3-image w3-circle w3-gender" src="img/icones/girl.png" alt="Image avatar fille"/>
                 <br>FILLE
             </a>
             <br>
-            <button class="w3-button w3-gray w3-round-large w3-hover-dark-gray" onclick="openSelect('girl')">Personnaliser</button>
-            <div class="w3-container" id="girl" style="display: none;">
+            <!-- <button class="w3-button w3-gray w3-round-large w3-hover-dark-gray" onclick="openSelect('girl')">Personnaliser</button> -->
+            <div class="collapsible" id="girl" style="display: none;">
                 <!-- <span onclick="this.parentElement.style.display='none' "class="w3-button w3-large w3-display-topright">&times;</span> -->
                 <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop1')">Coiffure</button>
                 <div id="drop1" class="w3-hide">
@@ -87,12 +87,12 @@
             <canvas id="canvas" class="w3-border-3 w3-circle" width="500" height="500"></canvas>
         </div>
         <div class="w3-col m2 w3-margin-bottom">
-            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=man" onclick="openSelect('boy')">
+            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=man" onclick="openSelect('boy'); return false;">
                 <img class="w3-image w3-circle w3-gender " src="img/icones/boy.png" alt="Image avatar garçon" />
                 <br>GARÇON
             </a>
             <br>
-            <button class="w3-button w3-gray w3-round-large w3-hover-dark-gray" onclick="openSelect('boy')">Personnaliser</button>
+<!--             <button class="w3-button w3-gray w3-round-large w3-hover-dark-gray" onclick="openSelect('boy')">Personnaliser</button> -->
             <div class="w3-container" id="boy" style="display: none;">
                 <!-- <span onclick="this.parentElement.style.display='none' "class="w3-button w3-large w3-display-topright">&times;</span> -->
                 <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('dropA')">Coiffure</button>
