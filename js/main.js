@@ -1,16 +1,48 @@
 /* main.js v0.1 by djphil (CC-BY-NC-SA 4.0) */
 
 document.addEventListener("DOMContentLoaded", function() {
+
+        fetch("json/assets.json").then(Response => Response.json()).then(data => {
+        for (let i = 0; i < data.length; i++) {
+            console.log(data[i]);
+            console.log(data[i].img);
+            console.log(data[i].gender);
+            console.log(data[i].color);
+        }
+    });
+
     let canvas = document.getElementById('canvas');
-    let select_girl = document.getElementById('select_girl');
-    let select_boy = document.getElementById('select_boy');
 
     if (canvas.getContext) {
-        let ctx = canvas.getContext('2d');
-        let download_btn = document.getElementById('download_btn');
-        let background_btn = document.getElementById('background_btn');
-        let colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
-        let path = "img/";
+        const ctx = canvas.getContext('2d');
+        const download_btn = document.getElementById('download_btn');
+        const background_btn = document.getElementById('background_btn');
+        const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
+        const path = "img/";
+
+        const queryString = window.location.search;
+        const params = new URLSearchParams(queryString);
+        let gender = params.get('gender');
+        if (gender != 'man') gender = 'woman';
+        gender = gender + "/";
+        console.log(gender);
+
+        window.openSelect = function(id) {
+            var x = document.getElementsByClassName("class");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+        document.getElementById(id).style.display = "block";  
+        };
+
+        window.mySelect = function(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        };
 
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
@@ -41,27 +73,17 @@ document.addEventListener("DOMContentLoaded", function() {
         nose_img.crossOrigin = "anonymous";
         mouth_img.crossOrigin = "anonymous";
         accessories_img.crossOrigin = "anonymous";
-        fronthair_img.crossOrigin = "anonymous";        
+        fronthair_img.crossOrigin = "anonymous";
 
-                backhair_img.src = path + "backhair/woman/backhair" + backhair_nbr;
-                body_img.src = path + "body/body" + body_nbr;
-                clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-                eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-                eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-                mouth_img.src = path + "mouth/woman/mouth" + mouth_nbr;
-                nose_img.src = path + "nose/nose" + nose_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;                
-                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
-
-                backhair_img.src = path + "backhair/man/backhair" + backhair_nbr;
-                body_img.src = path + "body/body" + body_nbr;
-                clothes_img.src = path + "clothes/clothes" + clothes_nbr;
-                eyebrows_img.src = path + "eyebrows/eyebrows" + eyebrows_nbr;
-                eyes_img.src = path + "eyes/woman/eyes" + eyes_nbr;
-                mouth_img.src = path + "mouth/man/mouth" + mouth_nbr;
-                nose_img.src = path + "nose/nose" + nose_nbr;
-                accessories_img.src = path + "accessories/accessories" + accessories_nbr;                
-                fronthair_img.src = path + "fronthair/man/fronthair" + fronthair_nbr;
+        backhair_img.src = path + gender + "backhair/backhair" + backhair_nbr;
+        body_img.src = path + "unisex/body/body" + body_nbr;
+        clothes_img.src = path + "unisex/clothes/clothes" + clothes_nbr;
+        eyebrows_img.src = path + "unisex/eyebrows/eyebrows" + eyebrows_nbr;
+        eyes_img.src = path + gender + "eyes/eyes" + eyes_nbr;
+        mouth_img.src = path + gender + "mouth/mouth" + mouth_nbr;
+        nose_img.src = path + "unisex/nose/nose" + nose_nbr;
+        accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
+        fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
 
@@ -77,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
         download_btn.addEventListener('click', function(e) {
             var link = document.createElement('a');
             link.download = 'avatar.png';
-            link.href = canvas.toDataURL()
+            link.href = canvas.toDataURL();
             link.click();
             link.delete;
         });
