@@ -1,24 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Avatar Customizer v0.1</title>
     <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lexend Deca'>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div id="container">
+
+<body class="w3-theme">
+<div class="w3-container w3-padding-16 w3-center">
     <h1>Avatar Customizer v0.1</h1>
+    <p>Bienvenue sur ce générateur d'avatar !<br>Tu peux personnaliser ton personnage en commençant par choisir ton genre à l'aide des deux images ci-dessous.</p>
     <br>
-    <canvas id="canvas" width="500" height="500"></canvas>
-    <br>
-    <button onclick="window.location.reload();">RANDOMIZE</button>
-    <button type="submit" id="background_btn">BACKGROUND</button>
-    <button type="submit" id="download_btn">DOWNLOAD</button>
-    <p class="sources">Sources: <a href="https://github.com/CappelleJess/AvatarCustomiser" target="_blank">Github</a></p>
+    <div class="w3-row w3-container w3-center">
+        <div class="w3-col m2 w3-margin-bottom">
+            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=woman" onclick="openSelect('girl')">
+                <img class="w3-image w3-circle w3-gender" src="img/icones/girl.png" alt="Image avatar fille" />
+                <br>FILLE
+            </a>
+            <div class="w3-container girl" id="girl" style="display:none">
+                <span onclick="this.parentElement.style.display='none' "class="w3-button w3-large w3-display-topright">&times;</span>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop1')">Coiffure</button>
+                <div id="drop1" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop2')">Visage</button>
+                <div id="drop2" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop3')">Vêtements</button>
+                <div id="drop3" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop4')">Sourcils</button>
+                <div id="drop4" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop5')">Yeux</button>
+                <div id="drop5" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop6')">Bouche</button>
+                <div id="drop6" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop7')">Nez</button>
+                <div id="drop7" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop8')">Accessoires</button>
+                <div id="drop8" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+                <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop9')">Mèche</button>
+                <div id="drop9" class="w3-hide">
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
+                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col m8 w3-margin-bottom">
+            <canvas id="canvas" class="w3-border-3 w3-circle" width="500" height="500"></canvas>
+        </div>
+        <div class="w3-col m2 w3-margin-bottom">
+            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=man" onclick="openSelect('boy')">
+                <img class="w3-image w3-circle w3-gender " src="img/icones/boy.png" alt="Image avatar garçon" />
+                <br>GARÇON
+            </a>
+        </div>
+    </div>
+    <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" onclick="window.location.reload();">ALÉATOIRE</button>
+    <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" id="background_btn">COULEUR DE FOND</button>
+    <button type="button" class="w3-button w3-round-large w3-white w3-hover-light-gray" id="download_btn">TÉLÉCHARGER</button>
+    <p class="w3-small">Sources: <a class="w3-link" href="https://github.com/CappelleJess/AvatarCustomiser" target="_blank">Github</a></p>
 </div>
+
 <script src="js/main.js"></script>
+
 </body>
 </html>
