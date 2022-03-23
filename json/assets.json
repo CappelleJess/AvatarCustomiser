@@ -247,145 +247,169 @@
 	{
 		"img": "/img/man/backhair/backhair1.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "straight"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair2.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "straight"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair3.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "straight"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair4.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "straight"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair5.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "straight"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair6.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "wavy"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair7.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "wavy"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair8.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "wavy"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair9.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "wavy"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair10.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "wavy"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair11.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "shaved"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair12.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "shaved"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair13.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "shaved"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair14.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "shaved"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair15.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "shaved"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair16.png",
 		"gender": "man",
-		"color": "black"
+		"color": "blond",
+		"type": "knots"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair17.png",
 		"gender": "man",
-		"color": "black"
+		"color": "ginger",
+		"type": "knots"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair18.png",
 		"gender": "man",
-		"color": "black"
+		"color": "auburn",
+		"type": "knots"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair19.png",
 		"gender": "man",
-		"color": "black"
+		"color": "chestnut",
+		"type": "knots"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair20.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "knots"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair21.png",
 		"gender": "man",
-		"color": "black"
+		"color": "blond",
+		"type": "buzz"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair22.png",
 		"gender": "man",
-		"color": "black"
+		"color": "ginger",
+		"type": "buzz"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair23.png",
 		"gender": "man",
-		"color": "black"
+		"color": "auburn",
+		"type": "buzz"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair24.png",
 		"gender": "man",
-		"color": "black"
+		"color": "chestnut",
+		"type": "buzz"
 	},
 	
 	{
@@ -397,25 +421,25 @@
 	{
 		"img": "/img/man/backhair/backhair26.png",
 		"gender": "man",
-		"color": "black"
+		"color": "blond"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair27.png",
 		"gender": "man",
-		"color": "black"
+		"color": "ginger"
 	},
 
 	{
 		"img": "/img/man/backhair/backhair28.png",
 		"gender": "man",
-		"color": "black"
+		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair29.png",
 		"gender": "man",
-		"color": "black"
+		"color": "chestnut"
 	},
 	
 	{
@@ -427,25 +451,25 @@
 	{
 		"img": "/img/man/backhair/backhair31.png",
 		"gender": "man",
-		"color": "black"
+		"color": "blond"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair32.png",
 		"gender": "man",
-		"color": "black"
+		"color": "ginger"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair33.png",
 		"gender": "man",
-		"color": "black"
+		"color": "auburn"
 	},
 	
 	{
 		"img": "/img/man/backhair/backhair34.png",
 		"gender": "man",
-		"color": "black"
+		"color": "chestnut"
 	},
 	
 	{
