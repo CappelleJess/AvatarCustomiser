@@ -37,14 +37,14 @@ document.addEventListener("DOMContentLoaded", function() {
         // document.getElementById(id).style.display = "block";  
         // };
 
-        window.mySelect = function(id) {
-            var x = document.getElementById(id);
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else { 
-                x.className = x.className.replace(" w3-show", "");
-            }
-        };
+        // window.mySelect = function(id) {
+        //     var x = document.getElementById(id);
+        //     if (x.className.indexOf("w3-show") == -1) {
+        //         x.className += " w3-show";
+        //     } else { 
+        //         x.className = x.className.replace(" w3-show", "");
+        //     }
+        // };
 
         let matched = get_random_image(35, 1);
             // let blondhair_nbr = get_random_img(7, 1);
