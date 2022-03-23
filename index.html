@@ -24,8 +24,7 @@
                     <br>FILLE</button>
                 </a>
                 <br>
-            <div class="w3-dropdown-content w3-bar-block w3-border w3-round-large" id="girl">
-                <!-- <span onclick="this.parentElement.style.display='none' "class="w3-button w3-large w3-display-topright">&times;</span> -->
+            <div class="w3-dropdown-content w3-bar-block" id="girl">
                 <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('drop1')">Coiffure</button>
                 <div id="drop1" class="w3-hide">
                     <a class="w3-bar-item w3-button" href="#">Blonde</a>
@@ -89,21 +88,22 @@
             <canvas id="canvas" class="w3-border-3 w3-circle" width="500" height="500"></canvas>
         </div>
         <div class="w3-col m2 w3-margin-bottom">
-            <a class="w3-button w3-padding-16 w3-round-large w3-white w3-hover-light-gray" href="?gender=man">
+            <div class="w3-dropdown-hover w3-round-large w3-white w3-hover-light-gray">
+            <a class="w3-button w3-round-large w3-white w3-hover-light-gray" href="?gender=man">
+                <button class="w3-button w3-padding-16 w3-round-large w3-hover-light-gray">
                 <img class="w3-image w3-circle w3-gender " src="img/icones/boy.png" alt="Image avatar garçon" />
-                <br>GARÇON
+                <br>GARÇON</button>
             </a>
             <br>
-<button class="w3-button w3-gray w3-round-large w3-hover-dark-gray" onclick="openSelect('boy')">Personnaliser</button>
-            <div class="w3-container" id="boy" style="display: none;">
-                <!-- <span onclick="this.parentElement.style.display='none' "class="w3-button w3-large w3-display-topright">&times;</span> -->
+            <div class="w3-dropdown-content w3-bar-block" id="girl">
                 <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('dropA')">Coiffure</button>
                 <div id="dropA" class="w3-hide">
-                    <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
-                    <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
-                    <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
+                    <a class="w3-bar-item w3-button" href="#">Blond</a>
+                    <a class="w3-bar-item w3-button" href="#">Roux</a>
+                    <a class="w3-bar-item w3-button" href="#">Auburne</a>
+                    <a class="w3-bar-item w3-button" href="#">Brun</a>
+                    <a class="w3-bar-item w3-button" href="#">Noir</a>
                 </div>
-
                 <button id="accordion" class="w3-button w3-block w3-black w3-left-align" onclick="mySelect('dropB')">Visage</button>
                 <div id="dropB" class="w3-hide">
                     <a class="w3-button w3-block w3-left-align" href="#">Link 1</a>
@@ -152,6 +152,7 @@
                     <a class="w3-button w3-block w3-left-align" href="#">Link 2</a>
                     <a class="w3-button w3-block w3-left-align" href="#">Link 3</a>
                 </div>
+            </div>
             </div>
         </div>
     </div>
