@@ -738,211 +738,246 @@
 	{
 		"img": "/img/man/fronthair/fronthair1.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "regular"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair2.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "regular"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair3.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "regular"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair4.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "regular"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair5.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "regular"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair6.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "beach"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair7.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "beach"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair8.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "beach"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair9.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "beach"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair10.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "beach"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair11.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "styled"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair12.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "styled"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair13.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "styled"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair14.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "styled"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair15.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "styled"
 	},
 	
 	{
 		"img": "/img/man/fronthair/fronthair16.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "bantu"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair17.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "bantu"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair18.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "bantu"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair19.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "bantu"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair20.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "bantu"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair21.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "cut"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair22.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "cut"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair23.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "cut"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair24.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "cut"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair25.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "cut"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair26.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "parts"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair27.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "parts"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair28.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "parts"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair29.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "parts"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair30.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "parts"
 	},
 	
 	{
 		"img": "/img/man/fronthair/fronthair31.png",
 		"gender": "man",
-		"color": "blond"
+		"color": "blond",
+		"type": "brush"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair32.png",
 		"gender": "man",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "brush"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair33.png",
 		"gender": "man",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "brush"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair34.png",
 		"gender": "man",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "brush"
 	},
 
 	{
 		"img": "/img/man/fronthair/fronthair35.png",
 		"gender": "man",
-		"color": "black"
+		"color": "black",
+		"type": "brush"
 	},
 
 	{
