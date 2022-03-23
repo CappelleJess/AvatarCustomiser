@@ -4,14 +4,46 @@
     --w3-theme : #ffffff;
 }
 
-body, h1, button {font-family: 'Lexend Deca';}
-h1, button {font-weight: 700;}
+body, h1, button {
+    font-family: 'Lexend Deca';
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: right;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1, button {
+    font-weight: 700;
+}
 
 button, a {
     -webkit-transition: background-color 300ms linear;
         -ms-transition: background-color 300ms linear;
             transition: background-color 300ms linear;
 }
+
 
 .w3-gender {width: 100px;}
 .w3-link {text-decoration: none;}
