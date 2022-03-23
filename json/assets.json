@@ -983,210 +983,245 @@
 	{
 		"img": "/img/unisex/eyebrows/eyebrows1.png",
 		"gender" : "unisex",
-		"color": "blond"
+		"color": "blond",
+		"type": "strict"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows2.png",
 		"gender" : "unisex",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "strict"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows3.png",
 		"gender" : "unisex",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "strict"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows4.png",
 		"gender" : "unisex",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "strict"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows5.png",
 		"gender" : "unisex",
-		"color": "black"
+		"color": "black",
+		"type": "strict"
 	},
 
 	{
 		"img": "/img/unisex/eyebrows/eyebrows6.png",
 		"gender" : "unisex",
-		"color": "blond"
+		"color": "blond",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows7.png",
 		"gender" : "unisex",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows8.png",
 		"gender" : "unisex",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows9.png",
 		"gender" : "unisex",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows10.png",
 		"gender" : "unisex",
-		"color": "black"
+		"color": "black",
+		"type": "pluck"
 	},
 
 	{
 		"img": "/img/unisex/eyebrows/eyebrows11.png",
 		"gender" : "unisex",
-		"color": "blond"
+		"color": "blond",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows12.png",
 		"gender" : "unisex",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows13.png",
 		"gender" : "unisex",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows14.png",
 		"gender" : "unisex",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows15.png",
 		"gender" : "unisex",
-		"color": "black"
+		"color": "black",
+		"type": "bushy"
 	},
 
 	{
 		"img": "/img/unisex/eyebrows/eyebrows16.png",
 		"gender" : "unisex",
-		"color": "blond"
+		"color": "blond",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows17.png",
 		"gender" : "unisex",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows18.png",
 		"gender" : "unisex",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows19.png",
 		"gender" : "unisex",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows20.png",
 		"gender" : "unisex",
-		"color": "black"
+		"color": "black",
+		"type": "tail"
 	},
 
 	{
 		"img": "/img/unisex/eyebrows/eyebrows21.png",
 		"gender" : "unisex",
-		"color": "blond"
+		"color": "blond",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows22.png",
 		"gender" : "unisex",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows23.png",
 		"gender" : "unisex",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows24.png",
 		"gender" : "unisex",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "pluck"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows25.png",
 		"gender" : "unisex",
-		"color": "black"
+		"color": "black",
+		"type": "pluck"
 	},
 
 	{
 		"img": "/img/unisex/eyebrows/eyebrows26.png",
 		"gender" : "unisex",
-		"color": "blond"
+		"color": "blond",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows27.png",
 		"gender" : "unisex",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows28.png",
 		"gender" : "unisex",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows29.png",
 		"gender" : "unisex",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "bushy"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows30.png",
 		"gender" : "unisex",
-		"color": "black"
+		"color": "black",
+		"type": "bushy"
 	},
 
 	{
 		"img": "/img/unisex/eyebrows/eyebrows31.png",
 		"gender" : "unisex",
-		"color": "blond"
+		"color": "blond",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows32.png",
 		"gender" : "unisex",
-		"color": "ginger"
+		"color": "ginger",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows33.png",
 		"gender" : "unisex",
-		"color": "auburn"
+		"color": "auburn",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows34.png",
 		"gender" : "unisex",
-		"color": "chestnut"
+		"color": "chestnut",
+		"type": "tail"
 	},
 	
 	{
 		"img": "/img/unisex/eyebrows/eyebrows35.png",
 		"gender" : "unisex",
-		"color": "black"
+		"color": "black",
+		"type": "tail"
 	}
 ]
