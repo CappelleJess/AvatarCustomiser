@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const download_btn = document.getElementById('download_btn');
         const background_btn = document.getElementById('background_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
+        const blondback = document.getElementById('blondback');
         const path = "img/";
 
         const queryString = window.location.search;
@@ -55,6 +56,13 @@ document.addEventListener("DOMContentLoaded", function() {
         let accessories_nbr = get_random_image(12, 1);        
         let fronthair_nbr = matched;
 
+        let blondback_nbr = get_random_image(7, 1);
+        let blondback_img = new Image();
+        blondback_img.crossOrigin = "anonymous";
+        blondback_img.src = path + gender + "backhair/blond/blond" + blondback_nbr;
+
+
+
         let backhair_img = new Image();
         let body_img = new Image();
         let clothes_img = new Image();
@@ -86,7 +94,6 @@ document.addEventListener("DOMContentLoaded", function() {
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
-
 
         window.onload = function() {
             draw_avatar();
