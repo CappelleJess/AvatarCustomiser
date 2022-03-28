@@ -59,9 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let blondback_nbr = get_random_image(7, 1);
         let blondback_img = new Image();
         blondback_img.crossOrigin = "anonymous";
-        blondback_img.src = path + gender + "backhair/blond/blond" + blondback_nbr;
-
-
+        blondback_img.src = path + gender + "backhair/blond/blondback" + blondback_nbr;
 
         let backhair_img = new Image();
         let body_img = new Image();
