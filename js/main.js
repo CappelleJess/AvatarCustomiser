@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const download_btn = document.getElementById('download_btn');
         const background_btn = document.getElementById('background_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
-        const blondback = document.getElementById('blondback');
         const path = "img/";
 
         const queryString = window.location.search;
@@ -56,10 +55,14 @@ document.addEventListener("DOMContentLoaded", function() {
         let accessories_nbr = get_random_image(12, 1);        
         let fronthair_nbr = matched;
 
-        let blondback_nbr = get_random_image(7, 1);
+        let blondback_nbr = get_random_blondback(7, 1);
         let blondback_img = new Image();
         blondback_img.crossOrigin = "anonymous";
         blondback_img.src = path + gender + "backhair/blond/blondback" + blondback_nbr;
+
+        function get_random_blondback(){
+            return blondback;
+        }
 
         let backhair_img = new Image();
         let body_img = new Image();
