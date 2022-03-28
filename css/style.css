@@ -9,6 +9,7 @@ body, h1, button {
 }
 
 .dropdown-content {
+    margin-top: -37px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
