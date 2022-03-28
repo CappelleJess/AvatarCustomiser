@@ -45,11 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         let matched = get_random_image(35, 1);
-            let blondhair_nbr = get_random_img(7, 1);
-            let gingerhair_nbr = get_random_img(7, 1);
-            let auburnhair_nbr = get_random_img(7, 1);
-            let chestnuthair_nbr = get_random_img(7, 1);
-            let blackhair_nbr = get_random_img(7, 1);
         let backhair_nbr = matched;
         let body_nbr = get_random_image(25, 1);
         let clothes_nbr = get_random_image(12, 1);
@@ -61,11 +56,6 @@ document.addEventListener("DOMContentLoaded", function() {
         let fronthair_nbr = matched;
 
         let backhair_img = new Image();
-            let blondhair_img = new Image();
-            let gingerhair_img = new Image();
-            let auburnhair_img = new Image();
-            let chestnuthair_img = new Image();
-            let blackhair_img = new Image();
         let body_img = new Image();
         let clothes_img = new Image();
         let eyebrows_img = new Image();
@@ -76,11 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
         let fronthair_img = new Image();
 
         backhair_img.crossOrigin = "anonymous";
-            blondhair_img.crossOrigin = "anonymous";
-            gingerhair_img.crossOrigin = "anonymous";
-            auburnhair_img.crossOrigin = "anonymous";
-            chestnuthair_img.crossOrigin = "anonymous";
-            blackhair_img.crossOrigin = "anonymous";
         body_img.crossOrigin = "anonymous";
         clothes_img.crossOrigin = "anonymous";
         eyebrows_img.crossOrigin = "anonymous";
@@ -91,11 +76,6 @@ document.addEventListener("DOMContentLoaded", function() {
         fronthair_img.crossOrigin = "anonymous";
 
         backhair_img.src = path + gender + "backhair/backhair" + backhair_nbr;
-            blondhair_img.src = path + gender + "backhair/blond/blond" + blondhair_nbr;
-            gingerhair_img.src = path + gender + "backhair/ginger/ginger" + blondhair_nbr;
-            auburnhair_img.src = path + gender + "backhair/auburn/auburn" + auburnhair_nbr,
-            chestnuthair_img.src = path + gender + "backhair/chestnut/chestnut" + chestnuthair_nbr;
-            blackhair_img.src = path + gender + "backhair/black/black" + blackhair_nbr;
         body_img.src = path + "unisex/body/body" + body_nbr;
         clothes_img.src = path + "unisex/clothes/clothes" + clothes_nbr;
         eyebrows_img.src = path + "unisex/eyebrows/eyebrows" + eyebrows_nbr;
@@ -106,10 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
         let background_color = get_random_color();
-
-        window.draw_backhair = function() {
-            ctx.drawImage(blondhair_img, 0, 0);
-        }
 
         window.onload = function() {
             draw_avatar();
