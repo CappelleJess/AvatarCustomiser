@@ -87,9 +87,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let background_color = get_random_color();
 
-        $(document).ready(function () {
-            var jsonURL = "search.json";
-        });
 
         window.onload = function() {
             draw_avatar();
