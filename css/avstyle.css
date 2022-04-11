@@ -8,6 +8,7 @@ body, h1, button {
 
 h1, button {
     font-weight: 700;
+    text-align: center;
 }
 
 button, a {
@@ -20,6 +21,7 @@ button, a {
     float: left;
     width: 33.33%;
     padding: 5px;
+    margin: 5px;
 }
 
 .w3-link {text-decoration: none;}
