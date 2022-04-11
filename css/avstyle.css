@@ -8,7 +8,6 @@ body, h1, button {
 
 h1, button {
     font-weight: 700;
-    text-align: center;
 }
 
 button, a {
@@ -17,13 +16,12 @@ button, a {
             transition: background-color 300ms linear;
 }
 
-canvas {
+div.gallery {
     margin: 5px;
-    float: left;
     width: 100px;
+    display: table;
 }
 
-.w3-gender {width: 100px;}
 .w3-link {text-decoration: none;}
 .w3-link:hover {text-decoration: underline;}
 .w3-theme {background-color: var(--w3-theme) !important;}
