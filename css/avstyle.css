@@ -1,0 +1,31 @@
+:root {
+    --w3-theme : #ffffff;
+}
+
+body, h1, button {
+    font-family: 'Lexend Deca';
+}
+
+h1, button {
+    font-weight: 700;
+}
+
+button, a {
+    -webkit-transition: background-color 300ms linear;
+        -ms-transition: background-color 300ms linear;
+            transition: background-color 300ms linear;
+}
+
+
+.w3-gender {width: 100px;}
+.w3-link {text-decoration: none;}
+.w3-link:hover {text-decoration: underline;}
+.w3-theme {background-color: var(--w3-theme) !important;}
+.w3-text-theme {background-color: var(--w3-theme) !important;}
+.w3-border-2 {border: 2px solid;}
+.w3-border-3 {border: 3px solid;}
+
+/* .w3-canvas {width: 500px; height: 500px;} */
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    /* .w3-canvas {width: 250px; height: 250px;} */
+}
