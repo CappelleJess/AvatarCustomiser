@@ -17,9 +17,9 @@ button, a {
 }
 
 div.gallery {
-    margin: 5px;
-    width: 100px;
-    display: table;
+    float: left;
+    width: 33.33%;
+    padding: 50px;
 }
 
 .w3-link {text-decoration: none;}
