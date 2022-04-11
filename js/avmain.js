@@ -14,8 +14,16 @@ document.addEventListener("DOMContentLoaded", function() {
     if (canvas.getContext) {
         const ctx = canvas.getContext('2d');
         const download_btn = document.getElementById('download_btn');
+        const background_btn = document.getElementById('background_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
+
+        const queryString = window.location.search;
+        const params = new URLSearchParams(queryString);
+        let gender = params.get('gender');
+        if (gender != 'man') gender = 'woman';
+        gender = gender + "/";
+        console.log(gender);
 
         let matched = get_random_image(35, 1);
         let backhair_nbr = matched;
@@ -63,6 +71,11 @@ document.addEventListener("DOMContentLoaded", function() {
         window.onload = function() {
             draw_avatar();
         };
+
+        background_btn.addEventListener('click', function(e) {
+            background_color = get_random_color();
+            draw_avatar();
+        });
 
         download_btn.addEventListener('click', function(e) {
             var link = document.createElement('a');
