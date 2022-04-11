@@ -55,21 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
         let accessories_nbr = get_random_image(12, 1);        
         let fronthair_nbr = matched;
 
-        let blondback_nbr = get_random_blondback(7, 1);
-        let blondback_img = new Image();
-        blondback_img.crossOrigin = "anonymous";
-        blondback_img.src = path + gender + "backhair/blond/blondback" + blondback_nbr;
-
-        window.get_random_blondback = function () {
-            let blondback = document.getElementById('blondback');
-            fill_canvas(blondback);
-            function fill_canvas(blondback) {
-                const canvas = document.getElementById('canvas');
-                const ctx = canvas.getContext('2d');
-
-                ctx.drawImage(blondback, 0, 0);
-            }
-        }
         let backhair_img = new Image();
         let body_img = new Image();
         let clothes_img = new Image();
