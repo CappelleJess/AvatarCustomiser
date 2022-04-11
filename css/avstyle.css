@@ -16,10 +16,10 @@ button, a {
             transition: background-color 300ms linear;
 }
 
-div.gallery {
+.img-container {
     float: left;
     width: 33.33%;
-    padding: 50px;
+    padding: 5px;
 }
 
 .w3-link {text-decoration: none;}
