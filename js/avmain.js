@@ -10,13 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     if (canvas.getContext) {
-        const ctx1 = canvas1.getContext('2d');
-        const ctx2 = canvas2.getContext('2d');
-        const ctx3 = canvas3.getContext('2d');
-        const ctx4 = canvas4.getContext('2d');
-        const ctx5 = canvas5.getContext('2d');
+        const ctx = canvas.getContext('2d');
         
-
         const download_btn = document.getElementById('download_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
