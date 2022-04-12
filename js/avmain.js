@@ -86,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         function draw_avatar() {
+            ctx.globalCompositeOperation = 'destination-over';
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.fillStyle = background_color;
             ctx.fillRect(0, 0, 150, 150);
