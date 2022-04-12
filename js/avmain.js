@@ -9,7 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    let canvas = document.getElementById('canvas');
+    let canvas1 = document.getElementById('canvas1');
+    let canvas2 = document.getElementById('canvas2');
+    let canvas3 = document.getElementById('canvas3');
+    let canvas4 = document.getElementById('canvas4');
+    let canvas5 = document.getElementById('canvas5');
 
     if (canvas.getContext) {
         const ctx = canvas.getContext('2d');
@@ -86,7 +90,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         function draw_avatar() {
-            ctx.globalCompositeOperation = 'destination-over';
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.fillStyle = background_color;
             ctx.fillRect(0, 0, 150, 150);
