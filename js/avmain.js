@@ -14,6 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let canvas3 = document.getElementById('canvas3');
     let canvas4 = document.getElementById('canvas4');
     let canvas5 = document.getElementById('canvas5');
+    let canvas = [canvas1, canvas2, canvas3, canvas4, canvas5];
+    let ctx = [ctx1, ctx2, ctx3, ctx4, ctx5];
+
 
     if (canvas.getContext) {
         const ctx1 = canvas1.getContext('2d');
@@ -22,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const ctx4 = canvas4.getContext('2d');
         const ctx5 = canvas5.getContext('2d');
 
-        let ctx = [ctx1, ctx2, ctx3, ctx4, ctx5];
+        
 
         const download_btn = document.getElementById('download_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
