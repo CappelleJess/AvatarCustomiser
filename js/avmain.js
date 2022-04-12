@@ -16,9 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
     let canvas5 = document.getElementById('canvas5');
 
     if (canvas.getContext) {
-        const ctx = canvas.getContext('2d');
+        const ctx1 = canvas1.getContext('2d');
+        const ctx2 = canvas2.getContext('2d');
+        const ctx3 = canvas3.getContext('2d');
+        const ctx4 = canvas4.getContext('2d');
+        const ctx5 = canvas5.getContext('2d');
+
+        let ctx = [ctx1, ctx2, ctx3, ctx4, ctx5];
+
         const download_btn = document.getElementById('download_btn');
-        const background_btn = document.getElementById('background_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
 
@@ -75,11 +81,6 @@ document.addEventListener("DOMContentLoaded", function() {
         window.onload = function() {
             draw_avatar();
         };
-
-        background_btn.addEventListener('click', function(e) {
-            background_color = get_random_color();
-            draw_avatar();
-        });
 
         download_btn.addEventListener('click', function(e) {
             var link = document.createElement('a');
