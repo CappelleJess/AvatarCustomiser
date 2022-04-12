@@ -9,14 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    let canvas1 = document.getElementById('canvas1');
-    let canvas2 = document.getElementById('canvas2');
-    let canvas3 = document.getElementById('canvas3');
-    let canvas4 = document.getElementById('canvas4');
-    let canvas5 = document.getElementById('canvas5');
-    
-
-
     if (canvas.getContext) {
         const ctx1 = canvas1.getContext('2d');
         const ctx2 = canvas2.getContext('2d');
