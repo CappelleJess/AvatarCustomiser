@@ -19,3 +19,5 @@ document.addEventListener("DOMContentLoaded", function() {
     function drawBackground() {
         background(random(255), random(255), random(255));
     }
+
+});
