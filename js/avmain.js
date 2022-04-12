@@ -15,3 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let canvas = createCanvas (150, 150);
         canvas.parent('gallery');
     }
+
+    function drawBackground() {
+        background(random(255), random(255), random(255));
+    }
