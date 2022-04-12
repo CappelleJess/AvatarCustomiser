@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (canvas.getContext) {
         const ctx = canvas.getContext('2d');
-        
         const download_btn = document.getElementById('download_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
