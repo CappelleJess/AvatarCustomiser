@@ -20,4 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
         background(random(255), random(255), random(255));
     }
 
+    window.onload = function() {
+        drawBackground();
+    }
+
 });
