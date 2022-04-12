@@ -11,4 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let canvas = document.getElementById('canvas');
 
-    
+    function setup() {
+        let canvas = createCanvas (150, 150);
+        canvas.parent('gallery');
+    }
