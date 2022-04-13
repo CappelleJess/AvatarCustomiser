@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let canvas = document.getElementById('canvas');
 
-    function setup() {
+    if (canvas.getContext) {
         const ctx = canvas.getElementById('2d');
         const download_btn = document.getElementById('download_btn');
         const path = "img/preset/";
@@ -65,4 +65,5 @@ document.addEventListener("DOMContentLoaded", function() {
             return Math.floor(Math.random() * a) + b + ".png";
         }
 
+        else {alert('Sorry, your browser do not support canvas ...')}
     };
