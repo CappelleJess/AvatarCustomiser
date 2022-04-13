@@ -12,16 +12,5 @@ document.addEventListener("DOMContentLoaded", function() {
     let canvas = document.getElementById('canvas');
 
     function setup() {
-        let canvas = createCanvas (150, 150);
-        canvas.parent('gallery');
-    }
-
-    function drawBackground() {
-        background(random(255), random(255), random(255));
-    }
-
-    window.onload = function() {
-        drawBackground();
-    }
-
-});
+        const ctx = canvas.getElementById('2d');
+        const path = "img/preset/";
