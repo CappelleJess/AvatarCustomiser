@@ -8,7 +8,21 @@ const queryString = window.location.search;
         console.log(gender);
 
 function getRandomImage(imgAr, path) {
-  path = path || 'img/preset/';
+  const path = "img/preset/";
+  const download_btn = document.getElementById('download_btn');
+
+  let woman_nbr = get_random_image(25, 1);
+  let man_nbr = get_random_image(7, 1);
+
+  let woman_img = new Image();
+  let man_img = new Image();
+
+  woman_img.crossOrigin = "anonymous";
+  man_img.src = "anonymous";
+
+  woman_img.src = path + gender + "woman/woman" + woman_nbr;
+  man_img.src = path + gender + "man/man" + man_nbr; 
+
   var num = Math.floor(Math.random() * imgAr.length);
   var img = imgAr;
   var ImgStr = '<img src="' + path + img + 'alt = ""';
