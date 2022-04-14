@@ -1,13 +1,9 @@
-let getRandomImage = () => {
-  var images = new Array();
+var random_images_array = ["", "",];
 
-  var randomNum1 = Math.floor(Math.random() * images.length);
-  var randomNum2 = Math.floor(Math.random() * images.length);
-
-    if (randomNum1 == randomNum2) {
-      return getRandomImage();
-    }
-
-  document.getElementById("").src = images[randomNum1];
-  document.getElementById("").src = images[randomNum2];
-};
+function getRandomImage(imgAr, path) {
+  path = path || 'img/preset/';
+  var num = Math.floor(Math.random() * imgAr.length);
+  var img = imgAr [];
+  var ImgStr = '<img src="' + path + img + 'alt = ""';
+  document.write(imgStr); document.close();
+}
