@@ -4,8 +4,6 @@ const queryString = window.location.search;
         if (gender != 'man') gender = 'woman';
         gender = gender + "/";
         console.log(gender);
-
-function getRandomImage(imgAr, path) {
   const path = "img/preset/";
   const download_btn = document.getElementById('download_btn');
 
@@ -26,10 +24,13 @@ function getRandomImage(imgAr, path) {
   document.write(imgStr); document.close();
 
   download_btn.addEventListener('click', function(e) {
-    var link = document.createElement('a');
-    link.download = 'avatar.png';
-    link.href = canvas.toDataURL();
-    link.click();
-    link.delete;
+  var link = document.createElement('a');
+  link.download = 'avatar.png';
+  link.href = canvas.toDataURL();
+  link.click();
+  link.delete;
   });
+
+function getRandomImage(imgAr, path) {
+
 }
