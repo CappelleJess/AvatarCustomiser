@@ -9,8 +9,8 @@ function getRandomImage(imgAr, path) {
   const path = "img/preset/";
   const download_btn = document.getElementById('download_btn');
 
-  let woman_nbr = get_random_image(25, 1);
-  let man_nbr = get_random_image(7, 1);
+  let woman_nbr = getRandomImage(25, 1);
+  let man_nbr = getRandomImage(7, 1);
 
   let woman_img = new Image();
   let man_img = new Image();
@@ -23,7 +23,6 @@ function getRandomImage(imgAr, path) {
 
   var num = Math.floor(Math.random() * imgAr.length);
   var img = imgAr;
-  var ImgStr = ;
   document.write(imgStr); document.close();
 
   download_btn.addEventListener('click', function(e) {
