@@ -25,4 +25,12 @@ function getRandomImage(imgAr, path) {
   var img = imgAr;
   var ImgStr = ;
   document.write(imgStr); document.close();
+
+  download_btn.addEventListener('click', function(e) {
+    var link = document.createElement('a');
+    link.download = 'avatar.png';
+    link.href = canvas.toDataURL();
+    link.click();
+    link.delete;
+  });
 }
