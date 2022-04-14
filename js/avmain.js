@@ -25,6 +25,6 @@ function getRandomImage(imgAr, path) {
 
   var num = Math.floor(Math.random() * imgAr.length);
   var img = imgAr;
-  var ImgStr = '<img src="' + path + img + 'alt = ""';
+  var ImgStr = ;
   document.write(imgStr); document.close();
 }
