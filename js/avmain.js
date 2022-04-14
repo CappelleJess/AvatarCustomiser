@@ -10,7 +10,7 @@ const queryString = window.location.search;
 function getRandomImage(imgAr, path) {
   path = path || 'img/preset/';
   var num = Math.floor(Math.random() * imgAr.length);
-  var img = imgAr [];
+  var img = imgAr;
   var ImgStr = '<img src="' + path + img + 'alt = ""';
   document.write(imgStr); document.close();
 }
