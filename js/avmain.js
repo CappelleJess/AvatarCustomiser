@@ -1,4 +1,8 @@
 
+
+
+
+/*
 const queryString = window.location.search;
         const params = new URLSearchParams(queryString);
         let gender = params.get('gender');
@@ -34,4 +38,4 @@ const queryString = window.location.search;
 
 function getRandomImage(imgAr, path) {
 
-}
+}*/
