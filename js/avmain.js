@@ -3,6 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
   var img = document.createElement("img");
   const path = "img/preset/";
 
+  const queryString = window.location.search;
+  const params = new URLSearchParams(queryString);
+  let gender = params.get('gender');
+  if (gender != 'man') gender = 'woman';
+  gender = gender + "/";
+  console.log(gender);
+
   let woman_nbr = get_random_image(25, 1);
   let man_nbr = get_random_image(7, 1);
 
