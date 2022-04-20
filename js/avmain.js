@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
   let woman_img = new Image();
   let man_img = new Image();
 
+  woman_img.crossOrigin = "anonymous";
+  man_img.crossOrigin = "anonymous";
+
   woman_img.src = path + gender + "woman" + woman_nbr;
   man_img.src = path + gender + "man" + man_nbr;
 
