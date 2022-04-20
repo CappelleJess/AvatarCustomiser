@@ -15,4 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
   woman_img.src = path + gender + "woman" + woman_nbr;
   man_img.src = path + gender + "man" + man_nbr;
 
+  window.onload = function() {
+    draw_avatar()
+  };
+
 })
