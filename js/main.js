@@ -128,5 +128,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    function blondShort() {
+    if (document.getElementById("blondshort").src == "img/woman/backhair/backhair1.png"){
+        document.getElementById("blondshort").src = "img/woman/backhair/backhair1.png";
+    } else {
+        document.getElementById("blondshort").src = "img/woman/backhair/backhair1.png";
+    }
+}
+
     else {alert('Sorry, your browser do not support canvas ...');}
 });
