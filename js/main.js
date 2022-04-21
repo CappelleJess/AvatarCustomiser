@@ -129,10 +129,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function getBlond() {
-        let toggleBlond. = document.getElementById("blondChoice");
-        if (toggleBlond.style.display === "none") {
-            toggleBlond.style.display = "block";
-        }
+        
     }
 
     else {alert('Sorry, your browser do not support canvas ...');}
