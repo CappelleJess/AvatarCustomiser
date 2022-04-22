@@ -128,10 +128,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    function getBlond() {
-        
-    }
-
-    else {alert('Sorry, your browser do not support canvas ...');}
+    else {alert('Sorry, your browser do not support canvas ...')}
 
 });
