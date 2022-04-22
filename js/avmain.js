@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    let canvas = document.getElementsByClassName('img-container');
+    let canvas = document.getElementById('canvas-parent');
 
     if (canvas.getContext) {
         const ctx = canvas.getContext('2d');
