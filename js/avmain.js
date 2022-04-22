@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    let canvas = document.getElementById('canvas-parent');
+    let parentDOM = document.getElementById('canvas-parent');
+    let canvas = parentDOM.getElementsByClassName('canvas')[0];
 
     if (canvas.getContext) {
         const ctx = canvas.getContext('2d');
