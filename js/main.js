@@ -128,6 +128,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    else {alert('Sorry, your browser do not support canvas ...')}
+    else {alert('Sorry, your browser do not support canvas ...');}
 
 });
