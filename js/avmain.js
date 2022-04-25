@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    let canvas = document.getElementsByTagName('canvas');
+    let canvases = document.getElementsByTagName('canvas');
 
-    if (canvas.getContext) {
-        const ctx = canvas.getContext('2d');
+    if (canvases.getContext) {
+        const ctx = canvases.getContext('2d');
         const download_btn = document.getElementById('download_btn');
         const background_btn = document.getElementById('background_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         function draw_avatar() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.clearRect(0, 0, canvases.width, canvases.height);
             ctx.fillStyle = background_color;
             ctx.fillRect(0, 0, 500, 500);
             ctx.drawImage(backhair_img, 0, 0);
