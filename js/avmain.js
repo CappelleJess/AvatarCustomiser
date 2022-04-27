@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         function draw_avatar() {
             ctx.clearRect(0, 0, canvases.width, canvases.height);
-            ctx.fillRect(0, 0, 500, 500);
+            ctx.fillRect(0, 0, 150, 150);
             ctx.drawImage(backhair_img, 0, 0);
             ctx.drawImage(body_img, 0, 0);
             ctx.drawImage(clothes_img, 0, 0);
