@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    let canvases = Element.getElementsByTagName('canvas');
+    let canvases = document.getElementsByTagName('canvas')[0];
 
     if (canvases.getContext) {
         const ctx = canvases.getContext('2d');
@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         function draw_avatar() {
             ctx.clearRect(0, 0, canvases.width, canvases.height);
-            ctx.fillStyle = background_color;
             ctx.fillRect(0, 0, 500, 500);
             ctx.drawImage(backhair_img, 0, 0);
             ctx.drawImage(body_img, 0, 0);
