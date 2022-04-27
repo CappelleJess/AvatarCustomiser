@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
         download_btn.addEventListener('click', function(e) {
             var link = document.createElement('a');
             link.download = 'avatar.png';
-            link.href = canvas.toDataURL();
+            link.href = canvases.toDataURL();
             link.click();
             link.delete;
         });
