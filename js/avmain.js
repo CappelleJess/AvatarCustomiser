@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (canvases.getContext) {
         const ctx = canvases.getContext('2d');
         const download_btn = document.getElementById('download_btn');
+        const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
 
         const queryString = window.location.search;
@@ -64,6 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
         accessories_img.src = path + "unisex/accessories/accessories" + accessories_nbr;
         fronthair_img.src = path + gender + "fronthair/fronthair" + fronthair_nbr;
 
+        let background_color = get_random_color();
+
         window.loadImage = function() {
             draw_avatar();
         };
@@ -78,6 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         function draw_avatar() {
             ctx.clearRect(0, 0, canvases.width, canvases.height);
+            ctx.fillStyle = background_color;
             ctx.fillRect(0, 0, 150, 150);
             ctx.drawImage(backhair_img, 0, 0);
             ctx.drawImage(body_img, 0, 0);
@@ -92,6 +96,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
         function get_random_image(a, b) {
             return Math.floor(Math.random() * a) + b + ".png";
+        }
+
+        function get_random_color() {
+            return colors[parseInt(Math.random() * colors.length)];
         }
     }
 
