@@ -71,6 +71,11 @@ document.addEventListener("DOMContentLoaded", function() {
             draw_avatar();
         };
 
+        window.onload = function() {
+            background_color = get_random_color();
+            draw_avatar();
+        };
+
         download_btn.addEventListener('click', function(e) {
             var link = document.createElement('a');
             link.download = 'avatar.png';
