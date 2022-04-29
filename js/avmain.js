@@ -9,7 +9,14 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    var canvases = document.getElementsByTagName('canvas')[0];
+
+    var canvases = document.querySelectorAll("img-container");
+for(var i = 0; i < canvases.length; i++) {
+    var container = canvases[i].querySelectorAll("canvas");
+    if (container.length == 0) {
+        throw 'This float has no caption!';
+    }
+}
 
     if (canvases.getContext) {
         const ctx = canvases.getContext('2d');
