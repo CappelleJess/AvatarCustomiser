@@ -88,15 +88,15 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx.clearRect(0, 0, canvases.width, canvases.height);
             ctx.fillStyle = background_color;
             ctx.fillRect(0, 0, 300, 300);
-            ctx.drawImage(backhair_img, 0, 0);
-            ctx.drawImage(body_img, 0, 0);
-            ctx.drawImage(clothes_img, 0, 0);
-            ctx.drawImage(eyebrows_img, 0, 0);
-            ctx.drawImage(eyes_img, 0, 0);
-            ctx.drawImage(mouth_img, 0, 0);
-            ctx.drawImage(nose_img, 0, 0);
-            ctx.drawImage(accessories_img, 0, 0);            
-            ctx.drawImage(fronthair_img, 0, 0);
+            ctx.drawImage(backhair_img, -100, -70);
+            ctx.drawImage(body_img, -100, -70);
+            ctx.drawImage(clothes_img, -100, -70);
+            ctx.drawImage(eyebrows_img, -100, -70);
+            ctx.drawImage(eyes_img, -100, -70);
+            ctx.drawImage(mouth_img, -100, -70);
+            ctx.drawImage(nose_img, -100, -70);
+            ctx.drawImage(accessories_img, -100, -70);            
+            ctx.drawImage(fronthair_img, -100, -70);
         }
 
         function get_random_image(a, b) {
