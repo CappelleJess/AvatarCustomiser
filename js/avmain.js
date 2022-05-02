@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let background_color = get_random_color();
 
-        window.loadImage = function() {
+        window.onload = function() {
             draw_avatar();
         };
 
