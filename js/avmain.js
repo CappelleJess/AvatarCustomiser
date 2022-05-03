@@ -109,6 +109,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    else {alert('Sorry, your browser do not support canvas ...');}
+
+    
     if (canvas2.getContext) {
         const ctx2 = canvas2.getContext('2d');
         const download_btn = document.getElementById('download_btn');
@@ -205,8 +208,5 @@ document.addEventListener("DOMContentLoaded", function() {
             return colors[parseInt(Math.random() * colors.length)];
         }
     }
-
-
-    else {alert('Sorry, your browser do not support canvas ...');}
 
 });
