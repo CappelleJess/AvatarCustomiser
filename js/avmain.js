@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    let canvases = document.createElement('canvas')[0];
+    let canvases = document.getElementsByTagName('canvas')[0];
 
     if (canvases.getContext) {
         const ctx = canvases.getContext('2d');
@@ -109,5 +109,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     else {alert('Sorry, your browser do not support canvas ...');}
+
+    function copyCanvas(original){
+        var copy
+    }
 
 });
