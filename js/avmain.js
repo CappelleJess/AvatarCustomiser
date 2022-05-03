@@ -9,12 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    
-    let canvas2 = document.getElementById('canvas2');
-
     if (canvas1.getContext) {
         let canvas1 = document.getElementById('canvas1');
+        let canvas2 = document.getElementById('canvas2');
         const ctx1 = canvas1.getContext('2d');
+        const ctx2 = canvas2.getContext('2d');
         const download_btn = document.getElementById('download_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
@@ -99,6 +98,19 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx1.drawImage(nose_img, -100, -70);
             ctx1.drawImage(accessories_img, -100, -70);            
             ctx1.drawImage(fronthair_img, -100, -70);
+
+            ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+            ctx2.fillStyle = background_color;
+            ctx2.fillRect(0, 0, 300, 300);
+            ctx2.drawImage(backhair_img, -100, -70);
+            ctx2.drawImage(body_img, -100, -70);
+            ctx2.drawImage(clothes_img, -100, -70);
+            ctx2.drawImage(eyebrows_img, -100, -70);
+            ctx2.drawImage(eyes_img, -100, -70);
+            ctx2.drawImage(mouth_img, -100, -70);
+            ctx2.drawImage(nose_img, -100, -70);
+            ctx2.drawImage(accessories_img, -100, -70);            
+            ctx2.drawImage(fronthair_img, -100, -70);
         }
 
         function get_random_image(a, b) {
