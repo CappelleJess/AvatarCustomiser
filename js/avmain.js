@@ -110,8 +110,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     else {alert('Sorry, your browser do not support canvas ...');}
 
-    function copyCanvas(original){
-        var copy
-    }
-
 });
