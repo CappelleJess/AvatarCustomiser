@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    let canvases = document.getElementsByTagName('canvas')[0];
+    let canvas = document.getElementById('canvas1');
 
-    if (canvases.getContext) {
-        const ctx = canvases.getContext('2d');
+    if (canvas.getContext) {
+        const ctx = canvas.getContext('2d');
         const download_btn = document.getElementById('download_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
