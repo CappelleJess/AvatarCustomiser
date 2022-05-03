@@ -9,10 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    let canvas1 = document.getElementById('canvas1');
+    
     let canvas2 = document.getElementById('canvas2');
 
     if (canvas1.getContext) {
+        let canvas1 = document.getElementById('canvas1');
         const ctx1 = canvas1.getContext('2d');
         const download_btn = document.getElementById('download_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
