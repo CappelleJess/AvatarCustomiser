@@ -9,11 +9,17 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-    if (canvas1.getContext) {
+    if (canvas1.getContext || canvas2.getContext || canvas3.getContext || canvas4.getContext || canvas5.getContext) {
         let canvas1 = document.getElementById('canvas1');
         let canvas2 = document.getElementById('canvas2');
+        let canvas3 = document.getElementById('canvas3');
+        let canvas4 = document.getElementById('canvas4');
+        let canvas5 = document.getElementById('canvas5');
         const ctx1 = canvas1.getContext('2d');
         const ctx2 = canvas2.getContext('2d');
+        const ctx3 = canvas3.getContext('2d');
+        const ctx4 = canvas4.getContext('2d');
+        const ctx5 = canvas5.getContext('2d');
         const download_btn = document.getElementById('download_btn');
         const colors = ["lightcoral", "lightblue", "lightpink", "lightgreen"];
         const path = "img/";
@@ -111,6 +117,45 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx2.drawImage(nose_img, -100, -70);
             ctx2.drawImage(accessories_img, -100, -70);            
             ctx2.drawImage(fronthair_img, -100, -70);
+
+            ctx3.clearRect(0, 0, canvas3.width, canvas3.height);
+            ctx3.fillStyle = background_color;
+            ctx3.fillRect(0, 0, 300, 300);
+            ctx3.drawImage(backhair_img, -100, -70);
+            ctx3.drawImage(body_img, -100, -70);
+            ctx3.drawImage(clothes_img, -100, -70);
+            ctx3.drawImage(eyebrows_img, -100, -70);
+            ctx3.drawImage(eyes_img, -100, -70);
+            ctx3.drawImage(mouth_img, -100, -70);
+            ctx3.drawImage(nose_img, -100, -70);
+            ctx3.drawImage(accessories_img, -100, -70);            
+            ctx3.drawImage(fronthair_img, -100, -70);
+
+            ctx4.clearRect(0, 0, canvas4.width, canvas4.height);
+            ctx4.fillStyle = background_color;
+            ctx4.fillRect(0, 0, 300, 300);
+            ctx4.drawImage(backhair_img, -100, -70);
+            ctx4.drawImage(body_img, -100, -70);
+            ctx4.drawImage(clothes_img, -100, -70);
+            ctx4.drawImage(eyebrows_img, -100, -70);
+            ctx4.drawImage(eyes_img, -100, -70);
+            ctx4.drawImage(mouth_img, -100, -70);
+            ctx4.drawImage(nose_img, -100, -70);
+            ctx4.drawImage(accessories_img, -100, -70);            
+            ctx4.drawImage(fronthair_img, -100, -70);
+
+            ctx5.clearRect(0, 0, canvas5.width, canvas5.height);
+            ctx5.fillStyle = background_color;
+            ctx5.fillRect(0, 0, 300, 300);
+            ctx5.drawImage(backhair_img, -100, -70);
+            ctx5.drawImage(body_img, -100, -70);
+            ctx5.drawImage(clothes_img, -100, -70);
+            ctx5.drawImage(eyebrows_img, -100, -70);
+            ctx5.drawImage(eyes_img, -100, -70);
+            ctx5.drawImage(mouth_img, -100, -70);
+            ctx5.drawImage(nose_img, -100, -70);
+            ctx5.drawImage(accessories_img, -100, -70);            
+            ctx5.drawImage(fronthair_img, -100, -70);
         }
 
         function get_random_image(a, b) {
