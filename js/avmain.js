@@ -151,6 +151,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx4.drawImage(fronthair_img, -100, -70);
         }
 
+        function draw_avatar() {
             ctx5.clearRect(0, 0, canvas5.width, canvas5.height);
             ctx5.fillStyle = background_color;
             ctx5.fillRect(0, 0, 300, 300);
