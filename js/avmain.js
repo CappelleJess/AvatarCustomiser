@@ -104,7 +104,9 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx1.drawImage(nose_img, -100, -70);
             ctx1.drawImage(accessories_img, -100, -70);            
             ctx1.drawImage(fronthair_img, -100, -70);
+        }
 
+        function draw_avatar() {
             ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
             ctx2.fillStyle = background_color;
             ctx2.fillRect(0, 0, 300, 300);
@@ -117,7 +119,9 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx2.drawImage(nose_img, -100, -70);
             ctx2.drawImage(accessories_img, -100, -70);            
             ctx2.drawImage(fronthair_img, -100, -70);
+        }
 
+        function draw_avatar() {
             ctx3.clearRect(0, 0, canvas3.width, canvas3.height);
             ctx3.fillStyle = background_color;
             ctx3.fillRect(0, 0, 300, 300);
@@ -130,7 +134,9 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx3.drawImage(nose_img, -100, -70);
             ctx3.drawImage(accessories_img, -100, -70);            
             ctx3.drawImage(fronthair_img, -100, -70);
+        }
 
+        function draw_avatar() {
             ctx4.clearRect(0, 0, canvas4.width, canvas4.height);
             ctx4.fillStyle = background_color;
             ctx4.fillRect(0, 0, 300, 300);
@@ -143,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx4.drawImage(nose_img, -100, -70);
             ctx4.drawImage(accessories_img, -100, -70);            
             ctx4.drawImage(fronthair_img, -100, -70);
+        }
 
             ctx5.clearRect(0, 0, canvas5.width, canvas5.height);
             ctx5.fillStyle = background_color;
