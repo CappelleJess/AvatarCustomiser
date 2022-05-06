@@ -91,32 +91,12 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         window.onload = function() {
-            draw_avatar5();
-        };
-
-        window.onload = function() {
-            background_color = get_random_color();
             draw_avatar1();
         };
 
         window.onload = function() {
             background_color = get_random_color();
-            draw_avatar2();
-        };
-
-        window.onload = function() {
-            background_color = get_random_color();
-            draw_avatar3();
-        };
-
-        window.onload = function() {
-            background_color = get_random_color();
-            draw_avatar4();
-        };
-
-        window.onload = function() {
-            background_color = get_random_color();
-            draw_avatar5();
+            draw_avatar();
         };
 
         download_btn.addEventListener('click', function(e) {
@@ -127,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
             link.delete;
         });
 
-        function draw_avatar1() {
+        function draw_avatar() {
             ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
             ctx1.fillStyle = background_color;
             ctx1.fillRect(0, 0, 300, 300);
@@ -142,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx1.drawImage(fronthair_img, -100, -70);
         }
 
-        function draw_avatar2() {
+        function draw_avatar() {
             ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
             ctx2.fillStyle = background_color;
             ctx2.fillRect(0, 0, 300, 300);
@@ -157,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx2.drawImage(fronthair_img, -100, -70);
         }
 
-        function draw_avatar3() {
+        function draw_avatar() {
             ctx3.clearRect(0, 0, canvas3.width, canvas3.height);
             ctx3.fillStyle = background_color;
             ctx3.fillRect(0, 0, 300, 300);
@@ -172,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx3.drawImage(fronthair_img, -100, -70);
         }
 
-        function draw_avatar4() {
+        function draw_avatar() {
             ctx4.clearRect(0, 0, canvas4.width, canvas4.height);
             ctx4.fillStyle = background_color;
             ctx4.fillRect(0, 0, 300, 300);
@@ -187,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx4.drawImage(fronthair_img, -100, -70);
         }
 
-        function draw_avatar5() {
+        function draw_avatar() {
             ctx5.clearRect(0, 0, canvas5.width, canvas5.height);
             ctx5.fillStyle = background_color;
             ctx5.fillRect(0, 0, 300, 300);
