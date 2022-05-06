@@ -96,7 +96,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
         window.onload = function() {
             background_color = get_random_color();
-            draw_avatar();
+            draw_avatar1();
+        };
+
+        window.onload = function() {
+            background_color = get_random_color();
+            draw_avatar2();
+        };
+
+        window.onload = function() {
+            background_color = get_random_color();
+            draw_avatar3();
+        };
+
+        window.onload = function() {
+            background_color = get_random_color();
+            draw_avatar4();
+        };
+
+        window.onload = function() {
+            background_color = get_random_color();
+            draw_avatar5();
         };
 
         download_btn.addEventListener('click', function(e) {
