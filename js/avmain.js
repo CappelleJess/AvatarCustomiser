@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
             link.delete;
         });
 
-        function draw_avatar() {
+        function draw_avatar1() {
             ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
             ctx1.fillStyle = background_color;
             ctx1.fillRect(0, 0, 300, 300);
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx1.drawImage(fronthair_img, -100, -70);
         }
 
-        function draw_avatar() {
+        function draw_avatar2() {
             ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
             ctx2.fillStyle = background_color;
             ctx2.fillRect(0, 0, 300, 300);
