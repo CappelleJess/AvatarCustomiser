@@ -75,7 +75,23 @@ document.addEventListener("DOMContentLoaded", function() {
         let background_color = get_random_color();
 
         window.onload = function() {
-            draw_avatar();
+            draw_avatar1();
+        };
+
+        window.onload = function() {
+            draw_avatar2();
+        };
+
+        window.onload = function() {
+            draw_avatar3();
+        };
+
+        window.onload = function() {
+            draw_avatar4();
+        };
+
+        window.onload = function() {
+            draw_avatar5();
         };
 
         window.onload = function() {
