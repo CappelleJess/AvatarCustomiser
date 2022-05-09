@@ -79,10 +79,6 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         window.onload = function() {
-            draw_avatar2();
-        };
-
-        window.onload = function() {
             background_color = get_random_color();
             draw_avatar();
         };
@@ -107,9 +103,8 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx1.drawImage(mouth_img, -100, -70);
             ctx1.drawImage(nose_img, -100, -70);
             ctx1.drawImage(accessories_img, -100, -70);            
-            ctx1.drawImage(fronthair_img, -100, -70);}
+            ctx1.drawImage(fronthair_img, -100, -70);
 
-        function draw_avatar2() {
             ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
             ctx2.fillStyle = background_color;
             ctx2.fillRect(0, 0, 300, 300);
@@ -121,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx2.drawImage(mouth_img, -100, -70);
             ctx2.drawImage(nose_img, -100, -70);
             ctx2.drawImage(accessories_img, -100, -70);            
-            ctx2.drawImage(fronthair_img, -100, -70);}
+            ctx2.drawImage(fronthair_img, -100, -70);
 
             ctx3.clearRect(0, 0, canvas3.width, canvas3.height);
             ctx3.fillStyle = background_color;
@@ -161,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx5.drawImage(nose_img, -100, -70);
             ctx5.drawImage(accessories_img, -100, -70);            
             ctx5.drawImage(fronthair_img, -100, -70);
-        
+        }
 
         function get_random_image(a, b) {
             return Math.floor(Math.random() * a) + b + ".png";
