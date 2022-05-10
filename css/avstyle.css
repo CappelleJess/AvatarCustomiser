@@ -10,13 +10,13 @@ h1, button {
     font-weight: 700;
 }
 
-button, a {
+button {
     -webkit-transition: background-color 300ms linear;
         -ms-transition: background-color 300ms linear;
             transition: background-color 300ms linear;
 }
 
-.img-container, img {
+.img-container {
     float: left;
     min-width: 20%;
     padding: 20px;
