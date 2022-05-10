@@ -16,7 +16,7 @@ button {
             transition: background-color 300ms linear;
 }
 
-img {
+a {
     min-width: 20%;
     margin: 20px;
 }
