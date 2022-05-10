@@ -16,6 +16,12 @@ button {
             transition: background-color 300ms linear;
 }
 
+img {
+    min-width: 20%;
+    padding: 1px;
+    margin: 20px;
+}
+
 .img-container {
     float: left;
     min-width: 20%;
