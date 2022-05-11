@@ -19,6 +19,9 @@ button {
 a {
     width: 100%;
     margin: 10px;
+    position: absolute;
+    float: none;
+    
 }
 
 .img-container {
