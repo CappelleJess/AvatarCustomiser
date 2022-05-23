@@ -24,6 +24,8 @@ a {
 .img-container {
     float: left;
     min-width: 20%;
+    padding: 20px;
+    margin: auto;
 }
 
 .w3-link {text-decoration: none;}
