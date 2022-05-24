@@ -156,16 +156,16 @@ document.addEventListener("DOMContentLoaded", function() {
             ctx5.drawImage(nose_img, -100, -70);
             ctx5.drawImage(accessories_img, -100, -70);            
             ctx5.drawImage(fronthair_img, -100, -70);
-        };
+        }
 
         function get_random_image(a, b) {
             return Math.floor(Math.random() * a) + b + ".png";
-        };
+        }
 
         function get_random_color() {
             return colors[parseInt(Math.random() * colors.length)];
-        };
-    };
+        }
+    }
 
     else {alert('Sorry, your browser do not support canvas ...');}
 
