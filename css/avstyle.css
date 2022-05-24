@@ -19,14 +19,13 @@ button {
 a {
     width: 100%;
     margin: 10px;
-    align-content: center;
 }
 
 .img-container {
     float: left;
     min-width: 20%;
     padding: 20px;
-    margin: auto;
+
 }
 
 .w3-link {text-decoration: none;}
